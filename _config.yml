@@ -733,6 +733,7 @@ plugins: # <https://jekyllrb.com/docs/plugins/>
 remote_theme: https://github.com/wu-kan/jekyll-theme-WuK@4.0.1 #使用固定版本号以防止主题更新导致站点显示错乱
 
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
+  enabled: false
   with_frontmatter: true # 支持带有yaml头的README
 
 webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
