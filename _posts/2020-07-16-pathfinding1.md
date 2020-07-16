@@ -19,8 +19,8 @@ As a long time GTA player, it was hard not to revere its driving AI, whenever be
 # Setup
 
 ## Python \+ libraries:
-\| \- tensorflow@1.15.0 \(\+keras\)
-\| \- opencv@3.x.x \(\+numpy\)
+\| \- tensorflow\@1.15.0 \(\+keras\)
+\| \- opencv\@3.x.x \(\+numpy\)
 
 ## Object Detection Architecture
 \| \- output: YOLOv3 \(from opencv\)
