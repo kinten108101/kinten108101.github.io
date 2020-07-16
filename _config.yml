@@ -462,7 +462,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
 
                 (function() { 
                     var d = document, s = d.createElement('script');
-                    s.src = 'https://aurora-7.disqus.com/embed.js';
+                    s.src = '//aurora-7.disqus.com/embed.js';
                     s.setAttribute('data-timestamp', +new Date());
                     (d.head || d.body).appendChild(s);
                 })();
