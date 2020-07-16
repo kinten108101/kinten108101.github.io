@@ -113,7 +113,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h4,
                 h5,
                 h6 {
-                  font-family: "Ubuntu", Menlo, Monaco, Segoe UI, Microsoft JhengHei, sans-serif;
+                  font-style: italic;
+                  font-family: Ubuntu, Menlo, Monaco, Segoe UI, monospace;
                 }
               </style>
             - | # 网页标题使用加粗字号
@@ -333,7 +334,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
-                  <a>2020 9225thegibbly - forked from </a><a href="https://wu-kan.github.io/">WuK</a>
+                  <a>2020 9225thegibbly - forked from </a><a href="https://wu-kan.github.io/"><e>WuK</e></a>
                 </div>
               - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
             wordcount: # 全站字数统计
