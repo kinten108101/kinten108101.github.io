@@ -460,7 +460,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
                 var disqus_config = function () {
-                    this.page.url = "https://kinten108101.github.io{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
+                    this.page.url = "https://kinten108101.github.io/{{ page.url }}";  // Replace PAGE_URL with your page's canonical URL variable
                     this.page.identifier = "{{ page.url }}"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
                 };
 
@@ -556,9 +556,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           append_to_section_tag:
             - key: data-markdown
             - key: data-separator # 水平展示页分隔符
-              value: <----->
+              value: <!-- slide -->
             - key: data-separator-vertical # 垂直展示页分隔符
-              value: <--->
+              value: <!-- slide vertical=true -->
             - key: data-background-color
               value: "White"
           prepend: |
