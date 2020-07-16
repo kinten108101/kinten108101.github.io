@@ -1,8 +1,3 @@
----
-layout: default
-
-
----
 # Greetings
 
 To begin, navigate to the MENU button in the top right corner.

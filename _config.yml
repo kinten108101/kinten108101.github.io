@@ -113,7 +113,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h4,
                 h5,
                 h6 {
-                  font-style: italic;
                   font-family: Ubuntu, Menlo, Monaco, Segoe UI, monospace;
                 }
               </style>
