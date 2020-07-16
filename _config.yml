@@ -503,8 +503,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         archive:
           group_by: "%b %Y" # 见<https://liquid.bootcss.com/filters/date/>
           posts_count:
-            enable: true # 博文数量统计
-            append: 篇博文。长路漫漫！ # 提示语
+            enable: false # 博文数量统计
+            append: 
           pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
             enable: true
           year_count: true
@@ -554,9 +554,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           append_to_section_tag:
             - key: data-markdown
             - key: data-separator # 水平展示页分隔符
-              value: <!-- .slide -->
+              value: <----->
             - key: data-separator-vertical # 垂直展示页分隔符
-              value: <!-- .slide vertical=true -->
+              value: <--->
             - key: data-background-color
               value: "White"
           prepend: |
@@ -652,7 +652,7 @@ plugins: # <https://jekyllrb.com/docs/plugins/>
 remote_theme: https://github.com/kinten108101/jekyll-theme-WuK #使用固定版本号以防止主题更新导致站点显示错乱
 
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
-  enabled: false
+  enabled: true
   with_frontmatter: true # 支持带有yaml头的README
   
 index_pages:
