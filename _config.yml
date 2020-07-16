@@ -1,22 +1,19 @@
 title: wu-kan # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
   Trying something new everyday<br/>
-  <a href="mailto:i@wu-kan.cn">
-    <i class="fas fa-envelope"></i>
+  <a href="https://twitter.com/kinten108101">
+    <i class="fa fa-twitter" aria-hidden="true"></i>
   </a>
-  <a href="https://github.com/wu-kan">
-    <i class="fab fa-github"></i>
+  <a href="https://facebook.com/giabao.lenguyen.16">
+    <i class="fa fa-facebook" aria-hidden="true"></i>
   </a>
-  <a href="https://codeforces.com/profile/WuK">
-    <i class="fas fa-chart-bar"></i>
+  <a href="https://github.com/kinten108101">
+    <i class="fa fa-github"></i>
   </a>
-  <a href="https://vjudge.net/user/WuK">
-    <i class="fas fa-smile"></i>
+  <a href="https://luyenanhchuyen.wordpress.com">
+    <i class="fa fa-book"></i>
   </a>
-  <a href="https://www.zhihu.com/people/wu.kan/activities">
-    <i class="fab fa-zhihu"></i>
-  </a>
-  <iframe width="100%" height="310" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/236094777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-141968126" title="subkoi" target="_blank" style="color: #cccccc; text-decoration: none;">subkoi</a> · <a href="https://soundcloud.com/user-141968126/sets/flcl-soundtrack" title="FLCL Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">FLCL Soundtrack</a></div>
+  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/236094777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-141968126" title="subkoi" target="_blank" style="color: #cccccc; text-decoration: none;">subkoi</a> · <a href="https://soundcloud.com/user-141968126/sets/flcl-soundtrack" title="FLCL Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">FLCL Soundtrack</a></div>
 url: https://wu-kan.cn # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -417,7 +414,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fas fa-user-edit fa-fw"></i>
               kilo: 千
-              unit: 字
+              unit: words
         page:
           masthead: # 显示顶栏
             enable: true
