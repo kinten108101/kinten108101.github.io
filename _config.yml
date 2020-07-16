@@ -1,6 +1,6 @@
 title: \@urora # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  open-sauce amateur<br/>
+  open-sauce amateur, simulated ..<br/>
   <a href="https://twitter.com/kinten108101">
     <i class="fab fa-twitter"></i>
   </a>
@@ -87,11 +87,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://www.engbladco.com/en/system/storage/serve/7804/Sand_Image_Tile_Item_7156.jpg?itok=jE6WzJMr);
+                  background-image: url(https://www.greenlamclads.com/projects/Clear-White.jpg);
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
-                    background-image: url(https://www.engbladco.com/en/system/storage/serve/7804/Sand_Image_Tile_Item_7156.jpg?itok=jE6WzJMr);
+                    background-image: url(https://www.greenlamclads.com/projects/Clear-White.jpg);
                   }
                 }
                 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
