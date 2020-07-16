@@ -454,7 +454,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         comments: # 留言页
             append:            
                 <div id="disqus_thread"></div>
-                <script>
+                <script type="text/javascript">
                 var disqus_config = function () {
                     this.page.url = "{{ site.url }}{{ page.url }}";  
                     this.page.identifier = "{{ page.url }}"; 
@@ -462,7 +462,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
 
                 (function() { 
                     var d = document, s = d.createElement('script');
-                    s.src = 'https://aurora-7.disqus.com/embed.js';
+                    s.src = '//giabolnguyn.disqus.com/embed.js';
                     s.setAttribute('data-timestamp', +new Date());
                     (d.head || d.body).appendChild(s);
                 })();
