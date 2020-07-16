@@ -87,11 +87,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://storage.googleapis.com/support-forums-api/attachment/thread-24630227-1599107368970384795.jpg);
+                  background-image: url(https://www.engbladco.com/en/system/storage/serve/7804/Sand_Image_Tile_Item_7156.jpg?itok=jE6WzJMr);
                 }
                 @media (min-aspect-ratio: 2400/1850) {
                   .wrap {
-                    background-image: url(https://storage.googleapis.com/support-forums-api/attachment/thread-24630227-1599107368970384795.jpg);
+                    background-image: url(https://www.engbladco.com/en/system/storage/serve/7804/Sand_Image_Tile_Item_7156.jpg?itok=jE6WzJMr);
                   }
                 }
                 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
