@@ -8,7 +8,7 @@ A perceptron is a simple, shallow neural network that accepts an input, through 
 
 A CNN Convolution is consisted of convolutional and pooling layers (scanning filter-like layers that capture prominent features) and FLCLs. LeNet, introduced by Yann LeCun et al, is among the oldest and simplest CNNs, which gathered a cult following of geeks and researchers. There are now AlexNet, VGG, GoogLeNet, ResNet, InceptionNet, ...
 
-![LeNet first brought the concept of CNN to mainstream ML in 1998](https://www.researchgate.net/profile/Yiren_Zhou/publication/312170477/figure/fig1/AS:448817725218816@1484017892071/Structure-of-LeNet-5.png)
+[LeNet first brought the concept of CNN to mainstream ML in 1998](https://www.researchgate.net/profile/Yiren_Zhou/publication/312170477/figure/fig1/AS:448817725218816@1484017892071/Structure-of-LeNet-5.png)
 
 These are primarily backends for object classification (labelling an image with an object). In contrast, object detection (involves localization, the bounding-boxing of objects on the screens then classification) is relatively novel, with models namely Fast/Faster/Masked R-CNNs, SSD, YOLOv2/v3/v4, .... Home computers from laptops to mobile phones are il-suited for this task.
 
