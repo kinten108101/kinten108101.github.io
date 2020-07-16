@@ -1,6 +1,6 @@
-title: wu-kan # 站点标题
+title: 9225thegibbly # 站点标题
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  Trying something new everyday<br/>
+  open-sauce amateur<br/>
   <a href="https://twitter.com/kinten108101">
     <i class="fab fa-twitter"></i>
   </a>
@@ -13,7 +13,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://luyenanhchuyen.wordpress.com">
     <i class="fa fa-book"></i>
   </a>
-  <iframe width="100%" height="300" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/236094777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-141968126" title="subkoi" target="_blank" style="color: #cccccc; text-decoration: none;">subkoi</a> · <a href="https://soundcloud.com/user-141968126/sets/flcl-soundtrack" title="FLCL Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">FLCL Soundtrack</a></div>
+  <iframe width="80%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/236094777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-141968126" title="subkoi" target="_blank" style="color: #cccccc; text-decoration: none;">subkoi</a> · <a href="https://soundcloud.com/user-141968126/sets/flcl-soundtrack" title="FLCL Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">FLCL Soundtrack</a></div>
 url: https://wu-kan.cn # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -214,18 +214,16 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320 # 头像的地址
+              img: https://secure.gravatar.com/avatar/ba8091614d091da651a3d6ed848b29cf # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
-              - title: '<i class="fas fa-home fa-fw"></i> 首页'
+              - title: '<i class="fas fa-home fa-fw"></i> Return'
                 href: /
-              - title: '<i class="fas fa-comments fa-fw"></i> 留言'
-                href: /comments/
-              - title: '<i class="fas fa-tags fa-fw"></i> 标签'
+              - title: '<i class="fas fa-tags fa-fw"></i> Tags'
                 href: /tags/
-              - title: '<i class="fas fa-archive fa-fw"></i> 归档'
+              - title: '<i class="fas fa-archive fa-fw"></i> Archives'
                 href: /archive/
-              - title: '<i class="fas fa-coffee fa-fw"></i> 打赏'
-                href: /merger/
+              - title: '<i class="fas fa-address-card"></i> About'
+                href: /about/
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: false # 可能导致缓慢的搜索和加载
@@ -244,7 +242,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 </style>
                 <input
                   id="sidebar-search-input"
-                  placeholder="搜索博文"
+                  placeholder="Search here"
                 />
                 <ol
                   id="sidebar-search-results-container"
@@ -394,7 +392,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
-                  2017-2020 WuK
+                  <a>2020 9225thegibbly - forked from</a><a href="https://wu-kan.github.io/">WuK</a>
                 </div>
               - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
                 <div>
