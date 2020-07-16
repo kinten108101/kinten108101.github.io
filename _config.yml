@@ -13,7 +13,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://luyenanhchuyen.wordpress.com">
     <i class="fa fa-book"></i>
   </a>
-  <iframe width="80%" height="100" scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/236094777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-141968126" title="subkoi" target="_blank" style="color: #cccccc; text-decoration: none;">subkoi</a> · <a href="https://soundcloud.com/user-141968126/sets/flcl-soundtrack" title="FLCL Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">FLCL Soundtrack</a></div>
+  
 url: https://wu-kan.cn # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -226,6 +226,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 href: /archive/
               - title: '<i class="fas fa-address-card"></i> About'
                 href: /about/
+              - title: '<iframe width="80%" height="100" scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/236094777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-141968126" title="subkoi" target="_blank" style="color: #cccccc; text-decoration: none;">subkoi</a> · <a href="https://soundcloud.com/user-141968126/sets/flcl-soundtrack" title="FLCL Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">FLCL Soundtrack</a></div>'
+                href: /
             simple_jekyll_search: # 侧边栏的全站搜索
               enable: true
               full_text_search: false # 可能导致缓慢的搜索和加载
@@ -397,19 +399,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   <a>2020 9225thegibbly - forked from </a><a href="https://wu-kan.github.io/">WuK</a>
                 </div>
               - | # 我的备案信息，请你的网站删掉这一项。互联网非法外之地！
-                <div>
-                  <i class="fas fa-info-circle fa-fw"></i>
-                  <a href="http://beian.miit.gov.cn">
-                    粤ICP备 20024947号
-                  </a>
-                </div>
-              - | # 公安网备信息
-                <div>
-                  <img src="http://www.beian.gov.cn/img/new/gongan.png" class="fa-fw"></img>
-                  <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=34070202000407">
-                    皖公网安备 34070202000407号
-                  </a>
-                </div>
             wordcount: # 全站字数统计
               enable: false # 本地调试时建议关闭，非常影响站点生成速度（所需时间与博文数量的平方成正比）
               prepend: <i class="fas fa-user-edit fa-fw"></i>
