@@ -24,7 +24,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           body:
-            theme-base: theme-base-0d # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
+            theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
             layout-reverse: true # 开启后sidebar在右边，反之左边
             sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
@@ -724,6 +724,7 @@ compress_html: # <https://github.com/penibelst/jekyll-compress-html>
 # githubpage上支持的插件见<https://pages.github.com/versions/>
 plugins: # <https://jekyllrb.com/docs/plugins/>
   - jekyll-readme-index # 使用readme做index，从而和github渲染效果一致
+  - jekyll-index_pages
   - jekyll-default-layout # 为每个markdown自动生成layout
   - jekyll-seo-tag # 为每个页面生成标题
   - jekyll-sitemap # 为站点生成站点地图
@@ -735,6 +736,14 @@ remote_theme: https://github.com/wu-kan/jekyll-theme-WuK@4.0.1 #使用固定版�
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   enabled: false
   with_frontmatter: true # 支持带有yaml头的README
+  
+index_pages:
+  posts:
+    title: Post Listing Page Title
+    excerpt: Post listing page excerpt
+    per_page: 20
+    permalink: /
+    layout: page
 
 webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
   google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
