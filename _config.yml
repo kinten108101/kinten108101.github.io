@@ -254,16 +254,16 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
                     <i class="fas fa-spinner fa-pulse"></i>
-                  </span>days
+                  </span> days
                   <span id="run_time_hour">
                     <i class="fas fa-spinner fa-pulse"></i>
-                  </span>hours
+                  </span> hours
                   <span id="run_time_minute">
                     <i class="fas fa-spinner fa-pulse"></i>
-                  </span>mins
+                  </span> mins
                   <span id="run_time_second">
                     <i class="fas fa-spinner fa-pulse"></i>
-                  </span>seconds
+                  </span> seconds
                   <script>
                     setInterval(function (d,h,m,s,b) {
                       function setzero(i) {
