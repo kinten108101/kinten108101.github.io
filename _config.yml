@@ -13,7 +13,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://luyenanhchuyen.wordpress.com">
     <i class="fa fa-book"></i>
   </a>
-  <iframe width="80%" height="100" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/236094777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-141968126" title="subkoi" target="_blank" style="color: #cccccc; text-decoration: none;">subkoi</a> · <a href="https://soundcloud.com/user-141968126/sets/flcl-soundtrack" title="FLCL Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">FLCL Soundtrack</a></div>
+  <iframe width="80%" height="100" scrolling="yes" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/236094777&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/user-141968126" title="subkoi" target="_blank" style="color: #cccccc; text-decoration: none;">subkoi</a> · <a href="https://soundcloud.com/user-141968126/sets/flcl-soundtrack" title="FLCL Soundtrack" target="_blank" style="color: #cccccc; text-decoration: none;">FLCL Soundtrack</a></div>
 url: https://wu-kan.cn # 你的域名，例如 https://wu-kan.github.io
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 
@@ -118,7 +118,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                           "text": "评论没有审核，要对自己的发言负责哦~"
                         }]
                       },
-                      "model": [
+                      "model": [           
+                        "https:\/\/cdn.jsdelivr.net/gh/xiaoski/live2d_models_collection/blob/master/kanzaki/kanzaki.model.json",
                         "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/33/model.2018.bls-winter.json",
                         "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/platelet-2/model.json",
                         "https:\/\/cdn.jsdelivr.net/gh/imuncle/live2d/model/xiaomai/xiaomai.model.json",
@@ -550,7 +551,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           wordcount: # 统计全文字数
             enable: true
             prepend: <i class="fas fa-file-word fa-fw"></i>
-            unit: 字
+            unit: words
           readtime: # 计算文章阅读时间
             enable: false
             prepend: <i class="fas fa-clock fa-fw"></i>
