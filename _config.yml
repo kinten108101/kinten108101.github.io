@@ -454,7 +454,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         comments: # 留言页
             append:            
                 <div id="disqus_thread"></div>
-                <script type="text/javascript">
+                <script>
                 var disqus_config = function () {
                     this.page.url = '{{ page.url | absolute_url }}';  
                     this.page.identifier = '{{ page.url | absolute_url }}'; 
