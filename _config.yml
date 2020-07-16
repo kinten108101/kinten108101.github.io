@@ -214,7 +214,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             disable: false # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
-              img: https://secure.gravatar.com/avatar/ba8091614d091da651a3d6ed848b29cf # 头像的地址
+              img: https://secure.gravatar.com/avatar/ba8091614d091da651a3d6ed848b29cf?s=512 # 头像的地址
             nav: # 导航部分的内容，你也可以自己增加文字、图标（来自fontawesome）和对应的链接
               - title: '<i class="fas fa-home fa-fw"></i> Return'
                 href: /
@@ -731,7 +731,7 @@ plugins: # <https://jekyllrb.com/docs/plugins/>
   - jekyll-feed # 为站点生成RSS源
   - jekyll-remote-theme # 使用remote_theme插件实现主题的前后分离，详见<https://github.com/benbalter/jekyll-remote-theme/>
 
-remote_theme: https://github.com/wu-kan/jekyll-theme-WuK@4.0.1 #使用固定版本号以防止主题更新导致站点显示错乱
+remote_theme: https://github.com/kinten108101/jekyll-theme-WuK@v1.0-mod #使用固定版本号以防止主题更新导致站点显示错乱
 
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   enabled: false
