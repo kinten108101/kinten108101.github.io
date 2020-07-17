@@ -656,7 +656,7 @@ webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
   google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
   baidu: szbTSfUGAB
 
-permalink: /:year/:month/:day/:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
+permalink: /_posts/:year/:month/:day/:title/ #生成文章的地址格式，我希望它和_posts目录下的格式一样
 # timezone: Asia/Shanghai # 解决githubpage显示时间不正确的问题，见<https://www.iana.org/time-zones>
 # future: false # 不发布时间在未来的文章
 
