@@ -1,9 +1,8 @@
 ---
 layout: post
-title: 0\: Realtime Pathfinding Camera
+title: 0\. Realtime Pathfinding Camera
 tag: pathfinding ml project
 ---
-
 A perceptron is a simple, shallow neural network that accepts an input, through some activation units, then an output - 3 layers. In a CNN Convolutional Neural Network, they are 1-dimensional FCLs Fully Connected Layers (aka FLCL)
 
 A CNN Convolution is consisted of convolutional and pooling layers (scanning filter-like layers that capture prominent features) and FLCLs. LeNet, introduced by Yann LeCun et al, is among the oldest and simplest CNNs, which gathered a cult following of geeks and researchers. There are now AlexNet, VGG, GoogLeNet, ResNet, InceptionNet, ...
