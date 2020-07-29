@@ -16,7 +16,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <div>
     Discord server coming soon<br/>
   </div>
-url: https://kinten108101.github.io
+url: https://urora.netlify.app
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 paginate: 5
 
@@ -59,7 +59,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 来自lanyon的页面样式，不要改
               <link
                 rel="stylesheet"
-                href="https://cdn.jsdelivr.net/combine/gh/poole/lanyon@v1.1.0/public/css/poole.min.css,gh/poole/lanyon@v1.1.0/public/css/lanyon.min.css,gh/poole/lanyon@v1.1.0/public/css/syntax.min.css"
+                href="https://cdn.jsdelivr.net/combine/gh/kinten108101/lanyon/public/css/poole.min.css,gh/kinten108101/lanyon/public/css/lanyon.min.css,gh/kinten108101/lanyon/public/css/syntax.min.css"
               />
             - | # 用js引入fontawesome图标样式，功能更丰富
               <script
