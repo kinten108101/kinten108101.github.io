@@ -110,7 +110,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 html {
                   text-align: justify;
                   text-justify: inter-word;
-                  font-size: 11px;
+                  font-size: 14px;
                   font-family: Ubuntu;
                   font-weight: normal;
                 }
@@ -118,8 +118,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # style for sidebar
               <style>
                 .sidebar {
-                  font-size: 13px;
-                  font-family: Menlo;
+                  font-size: 14px;
+                  font-family: "Roboto Mono";
                   font-weight: bold;
                 }
               </style>
@@ -131,8 +131,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h4,
                 h5,
                 h6 {
-                  font-size: 22px;
-                  font-family: Menlo;
+                  font-size: 25px;
+                  font-family: "Roboto Mono";
                   font-weight: bold;
                 }
               </style>
