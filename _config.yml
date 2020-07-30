@@ -462,7 +462,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               </style>
         comments: # 留言页
             append: |          
-              <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2F925weblog&width=500&layout=standard&action=like&size=small&share=true&height=35&appId=2358302524463673" width="500" height="35" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+              {% include fb-like.html %}
               <div id="disqus_thread"></div>
               <script>
                 var disqus_config = function () {
