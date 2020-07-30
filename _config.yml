@@ -105,17 +105,22 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   transform: translateX(0);
                 }
               </style>
-            - | # 网站字体，要换字体建议架梯子上<https://fonts.google.com/>挑选，再通过fonts.loli.net 加速引入
+            - | # style for content, all links are from googlefont
               <style>
-                .sidebar,
-                html,
-                h1,
-                h2,
-                h3,
-                h4,
-                h5,
-                h6 {
-                  font-family: Ubuntu, Menlo, Monaco, Segoe UI, monospace;
+                html {
+                  text-align: justify;
+                  text-justify: inter-word;
+                  font-size: 40px;
+                  font-family: Ubuntu;
+                  font-weight: normal;
+                }
+              </style>
+            - | # style for sidebar
+              <style>
+                .sidebar {
+                  font-size: 60px;
+                  font-family: Menlo;
+                  font-weight: bold;
                 }
               </style>
             - | # 网页标题使用加粗字号
@@ -126,6 +131,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h4,
                 h5,
                 h6 {
+                  font-size: 80px;
+                  font-family: Menlo;
                   font-weight: bold;
                 }
               </style>
