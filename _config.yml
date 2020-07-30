@@ -120,7 +120,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <style>
                 .sidebar {
                   font-size: 14px;
-                  font-family: "Roboto Mono", serif;
+                  font-family: 'Roboto Mono', serif;
                   font-weight: bold;
                 }
               </style>
@@ -133,7 +133,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h5,
                 h6 {
                   font-size: 25px;
-                  font-family: "Roboto Mono", serif;
+                  font-family: 'Roboto Mono', serif;
                   font-weight: bold;
                 }
               </style>
