@@ -429,7 +429,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 增加宽屏下的显示内容
               <style>
                 .container {
-                  min-width: 66.6%;
+                  min-width: 46.6%;
                 }
               </style>
             - | # 给文章加上磨砂背景，防止被背景影响阅读；同时加上加载动画
@@ -439,7 +439,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   padding-top: 1rem;
                   padding-bottom: 1rem;
                   margin-bottom: 1.5rem;
-                  box-shadow: 0 0 .75rem rgba(0, 0, 0, 0.1);
+                  #                   box-shadow: 0 0 .75rem rgba(0, 0, 0, 0.1);
                   background-color: rgba(255,255,255,.8);
                   animation-duration: 2s;
                   animation-name: fadeIn;
