@@ -4,6 +4,7 @@ title: 0. Realtime Pathfinding Camera
 date: 2020-07-17T04:50:50.303Z
 thumbnail: /assets/image/jv0r-drkici4i0fofwljimkq8sl6cfrviahihpb_qnk.jpg
 tag: pathfinding ml project
+excerpt: This is an excerpt!
 ---
 A perceptron is a simple, shallow neural network that accepts an input, through some activation units, then an output - 3 layers. In a CNN Convolutional Neural Network, they are 1-dimensional FCLs Fully Connected Layers (aka FLCL)
 
