@@ -1,7 +1,7 @@
-title: \@urora # 站点标题
-tagline: Toy store for the all-major, should you get what that means\!\!
+title: urora # 站点标题
+tagline: AI, AP, VR, ... The middle one, as in aurora particles, is the dawn of our simulation.
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  open-sauce amateur, simulated ..<br/>
+  from the web jaeger who wrote sci-fis ..<br/>
   <a href="https://twitter.com/kinten108101">
     <i class="fab fa-twitter"></i>
   </a>
@@ -110,7 +110,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 html {
                   text-align: justify;
                   text-justify: inter-word;
-                  font-size: 40px;
+                  font-size: 11px;
                   font-family: Ubuntu;
                   font-weight: normal;
                 }
@@ -118,7 +118,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # style for sidebar
               <style>
                 .sidebar {
-                  font-size: 60px;
+                  font-size: 13px;
                   font-family: Menlo;
                   font-weight: bold;
                 }
@@ -131,7 +131,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h4,
                 h5,
                 h6 {
-                  font-size: 80px;
+                  font-size: 22px;
                   font-family: Menlo;
                   font-weight: bold;
                 }
