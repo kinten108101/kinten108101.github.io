@@ -104,11 +104,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 }              
               </style>
             - | # style for content
+              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" />
               <style>
                 html {
                   text-align: left;
                   font-size: 14px;
-                  font-family: Ubuntu;
+                  font-family: 'Ubuntu', monospace;
                   font-weight: normal;
                 }
               </style>
