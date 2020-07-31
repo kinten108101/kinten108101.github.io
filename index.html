@@ -13,13 +13,7 @@ title: Home
     </h1>
 
     <span class="post-date">{{ post.date | date_to_string }}</span>
-	{% assign n = "0" %}
-	{% capture n %}{{ post.excerpt | number_of_words }}{% endcapture %}
-	{% if n != "0" %}
-    {{ post.excerpt }}
-	{% else %}
-	{{ post.content }}
-	{% endif %}
+
   </div>
   {% endfor %}
 </div>
