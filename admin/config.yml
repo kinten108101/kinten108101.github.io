@@ -13,9 +13,9 @@ collections:
     fields: 
       - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
-      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Publish Date", name: "date", widget: "datetime", dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", format: "L"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
-      - {label: "Tag", name: "tag", widget: "string"}
+      - {label: "Tags", name: "tags", widget: "string"}
       - {label: "Excerpt", name: "excerpt", widget: "markdown"}
       - {label: "Body", name: "body", widget: "markdown"}
       
