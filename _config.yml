@@ -17,7 +17,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="/admin"><i class="fas fa-key"></i></a><br/>
   <div id="fb-root"></div>
   <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&autoLogAppEvents=1&version=v7.0&appId=2358302524463673" nonce="apATsh9s"></script>
-  <div class="fb-like" data-href="https://www.facebook.com/925weblog" data-width=80% data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
+  <div class="fb-like" data-href="https://www.facebook.com/925weblog" data-width="200" data-layout="standard" data-action="like" data-size="small" data-share="true"></div>
 url: https://urora.netlify.app
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 paginate: 5
