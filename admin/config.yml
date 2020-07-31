@@ -17,7 +17,7 @@ collections:
       - {label: "Publish Date", name: "date", widget: "datetime", dateFormat: "DD.MM.YYYY", timeFormat: "HH:mm", format: "L"}
       - {label: "Featured Image", name: "thumbnail", widget: "image"}
       - {label: "Tags", name: "tags", widget: "string"}
-      - {label: "Excerpt", name: "excerpt", widget: "markdown"}
+      - {label: "Excerpt", name: "excerpt", widget: "string"}
       - {label: "Body", name: "body", widget: "markdown"}
       
   - name: 'page'
