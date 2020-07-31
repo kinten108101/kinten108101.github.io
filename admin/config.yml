@@ -1,6 +1,7 @@
 backend:
   name: git-gateway
-  branch: master # Branch to update (optional; defaults to master)
+  branch: master 
+  site_domain: urora.netlify.app
 publish_mode: editorial_workflow
 media_folder: "assets/image"
 public_folder: "/_site/image"
