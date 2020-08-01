@@ -70,6 +70,13 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
               />
+              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" />
+              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" />
+              <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap" rel="stylesheet" />
+              <link 
+                rel="stylesheet"
+                href="public/css/tag.css"
+              />
             - | # 百度爬虫推送，http站点使用 http://push.zhanzhang.baidu.com/push.js
               <script
                 src='https://zz.bdstatic.com/linksubmit/push.js'
@@ -103,8 +110,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   transform: translateX(0);
                 }              
               </style>
+              <style> mark {
+                  background-color: yellow;
+                  color: black;
+                }
+              </style>
             - | # style for content
-              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" />
               <style>
                 html {
                   text-align: left;
@@ -114,7 +125,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 }
               </style>
             - | # style for sidebar
-              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" />
               <style>
                 .sidebar {
                   font-size: 12px;
