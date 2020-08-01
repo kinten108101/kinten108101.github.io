@@ -11,8 +11,6 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
-    <span class="post-date">{{ post.date | date_to_string }}</span>
 	{% assign n = "0" %}
 	{% capture n %}{{ post.excerpt | number_of_words }}{% endcapture %}
 	{% if n != "0" %}
@@ -20,6 +18,14 @@ title: Home
 	{% else %}
 	{{ post.content }}
 	{% endif %}
+	<br>
+    <span class="tagblock">
+	{{ post.date | date_to_string }} in
+	{% for tag in post.tags %}
+	{{ tag | upcase }}
+	{% endfor %}
+	</span>
+	
   </div>
   {% endfor %}
 </div>
