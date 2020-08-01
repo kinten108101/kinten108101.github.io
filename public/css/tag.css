@@ -1,4 +1,16 @@
 .tagblock {
-
+	background-color: dodgerBlue;
+	border-radius: 5px;
+	font-family: "Anonymous Pro", serif;
+	font-weight: bold;
+	margin: 5px;
+	padding: 5px;
+	text-align: left;
+	float: left;
 }
 
+.tagblock:hover {
+					border-radius: 5px;
+                  transform: scale(1.2);
+                  transition-duration: 0.2s;
+                }
