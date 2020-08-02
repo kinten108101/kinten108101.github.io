@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 0. Realtime Pathfinding Camera
+title: "0. OF-PM "
 date: 2020-07-17T04:50:50.303Z
 thumbnail: /assets/image/jv0r-drkici4i0fofwljimkq8sl6cfrviahihpb_qnk.jpg
 tags: pathfinding ml project
-excerpt: This is an excerpt!
+excerpt: On the Fly Path-finding Mechanism, an ML project that will never pan out!
 ---
 A perceptron is a simple, shallow neural network that accepts an input, through some activation units, then an output - 3 layers. In a CNN Convolutional Neural Network, they are 1-dimensional FCLs Fully Connected Layers (aka FLCL)
 
@@ -60,10 +60,14 @@ Another key respect is more physical: specs. Does your machine possess a separat
 
 Intentionally or not, I could only base this on my laptop, Intel Intergrated GPU (as in none), 8 gigs and a tight budget. Hopefully, this may breed innovations. 
 
-## First attempt
+## First attempts
 
 ### 1. Darknet, where it started
 
 YOLO by all means is the fastest object detection model and also the most famous. The top hit on Google led me to Darknet and Redmon et al's original implementation in C++ (<https://pjreddie.com/darknet/>). Thankfully, there's Darkflow, a port to Python by a fellow Vietnamese thtrieu. After some struggle, I got it to work: the demo, with facecam on. I used YOLO-Tiny, both weights and config, and got marginally results. Truth is, YOLO was fast, but couldn't be handled by such low-powered machines as was my laptop. 
 
-TBA :)
+We'll revisit this story later, but for now, let's jump to present days.
+
+## Present - Caffe,
+
+2. Mobilenet-SSD
