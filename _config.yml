@@ -58,7 +58,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 来自lanyon的页面样式，不要改
               <link
                 rel="stylesheet"
-                href="/public/css/poole.css,/public/css/lanyon.css,/public/css/syntax.css"
+                href="/public/css/main.css"
               />
             - | # 用js引入fontawesome图标样式，功能更丰富
               <script
