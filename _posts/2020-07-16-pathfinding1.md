@@ -54,20 +54,18 @@ As a long time GTA player, it was hard not to revere its driving AI, whenever be
 
 The first month was spent on filling my knowledge gaps by reading up on Towards Data Science, PyImageSearch, and Coursera. 
 
-Most confusion and ignorance, I realized, stems from either me as a skating amateur or the lack of proper beginner-friendly material - as in the way every article expects a certain level of knowledge in hindsight. I recommend any beginner to start from the ground up, that is, mastering the traditional regression models, than perceptrons, ... until you acclimatized yourself to higher-levelled models.
+Most confusion and ignorance, I realized, stems from either me as a skating amateur or the lack of proper beginner-friendly material - as in the way every article expects a certain level of knowledge in hindsight. I recommend any beginner to start from the ground up, that is, mastering the traditional regression models, than perceptrons, ... until you acclimatized yourself to high-level models.
 
-Another key respect is more physical: specs. Does your machine possess a separate GPU? How much RAM does it have, over 8 gigs, 16 gigs? How about access to TPUs, cloud ML, API support? Answering these requirements means an easier life, otherwise you'll have to pesevere in optimizing your training, much less realtime performance.
+Another key respect is the sheer physicality of your machine, that is, your specs. Does your machine possess a separate GPU? How much RAM does it have, over 8 gigs, 16 gigs? How about access to TPUs, cloud ML, API support? Answering these requirements means an easier life, otherwise you'll have to pesevere in optimizing your training, much less realtime performance.
 
 Intentionally or not, I could only base this on my laptop, Intel Intergrated GPU (as in none), 8 gigs and a tight budget. Hopefully, this may breed innovations. 
 
 ## First attempts
 
-### 1. Darknet, where it started
-
 YOLO by all means is the fastest object detection model and also the most famous. The top hit on Google led me to Darknet and Redmon et al's original implementation in C++ (<https://pjreddie.com/darknet/>). Thankfully, there's Darkflow, a port to Python by a fellow Vietnamese thtrieu. After some struggle, I got it to work: the demo, with facecam on. I used YOLO-Tiny, both weights and config, and got marginally results. Truth is, YOLO was fast, but couldn't be handled by such low-powered machines as was my laptop. 
 
 We'll revisit this story later, but for now, let's jump to present days.
 
-## Present - Caffe,
+## Vision: Caffe, SSD
 
-2. Mobilenet-SSD
+The latter part of this article is now subject to updates as part of my on-going research, all of which are to be encapsulated. During this trying period, a great many interests unthought-of interests have been unearthed and not to mention is the forthcoming tight schedule (and extra syllabuses). Stay tune! :)
