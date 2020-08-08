@@ -635,6 +635,7 @@ compress_html: # <https://github.com/penibelst/jekyll-compress-html>
 
 # githubpage上支持的插件见<https://pages.github.com/versions/>
 plugins: # <https://jekyllrb.com/docs/plugins/>
+  - jemoji
   - jekyll-readme-index # 使用readme做index，从而和github渲染效果一致
   - jekyll-index_pages
   - jekyll-paginate
