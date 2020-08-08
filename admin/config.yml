@@ -2,7 +2,7 @@ backend:
   name: git-gateway
   branch: master 
   site_domain: urora.netlify.app
-local_backend: true
+  local_backend: true
 
 local_backend:
   # when using a custom proxy server port
