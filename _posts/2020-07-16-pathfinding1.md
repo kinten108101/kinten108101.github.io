@@ -68,4 +68,4 @@ We'll revisit this story later, but for now, let's jump to present days.
 
 ## Vision: Caffe, SSD
 
-The latter part of this article is now subject to updates as part of my on-going research, all of which are to be encapsulated. During this trying period, a great many interests unthought-of interests have been unearthed and not to mention is the forthcoming tight schedule (and extra syllabuses). Stay tune! :)
+The latter part of this article is now subject to updates as part of my on-going research, all of which are to be encapsulated. During this trying period, a great many interests unthought-of interests have been unearthed and not to mention is the forthcoming tight schedule (and extra syllabuses). Stay tuned! :)
