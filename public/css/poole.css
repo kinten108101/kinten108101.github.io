@@ -306,7 +306,12 @@ tbody tr:nth-child(odd) th {
  *
  * Super small header above the content for site name and short description.
  */
-
+.thumbnail {
+	
+}
+.thumbnail.title {
+	
+}
 .masthead {
   padding-top:    auto;
   padding-bottom: auto;
