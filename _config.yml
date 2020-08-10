@@ -95,7 +95,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   background-position: 0% 0%;
                   background-repeat: no-repeat;
                   background-attachment: fixed;
-                  background-image: url(https://24.media.tumblr.com/7bc3019350448cd056ac292ef1159cda/tumblr_n5d0u9RzoA1s2wio8o1_500.gif);
+                  background-image: url({{ page.thumbnail }}),url(https://24.media.tumblr.com/7bc3019350448cd056ac292ef1159cda/tumblr_n5d0u9RzoA1s2wio8o1_500.gif);
                   padding-bottom: 700px;
                 }
                 @media (min-aspect-ratio: 2400/1850) {
@@ -461,6 +461,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 给文章加上磨砂背景，防止被背景影响阅读；同时加上加载动画
               <style>
                 .thumbnail {
+                    display: inline;
+                    position: absolute;
                     width: 100%;
                     height: auto;
                     z-index: 1;
