@@ -450,15 +450,26 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               </style>
             - | # 给文章加上磨砂背景，防止被背景影响阅读；同时加上加载动画
               <style>
-                .masthead,
                 .container.content {
-                  padding-top: 1rem;
-                  padding-bottom: 1rem;
-                  margin-bottom: 1.5rem;
-                  margin-left: 30rem;
-                  background-color: rgba(255,255,255,.8);
-                  animation-duration: 2s;
-                  animation-name: fadeIn;
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    margin-bottom: 1.5rem;
+                    padding-left: 2.5rem;
+                    padding-right: 2.5rem;
+                    animation-duration: 2s;
+                    animation-name: fadeIn;
+                    color: rgb(148 148 148);
+                }
+                .container {
+                    min-width: 46.6%;
+                    max-width: 38rem;
+                    margin-top: 10rem;
+                    margin-left: 14rem;
+                    margin-right: auto;
+                    background-color: rgba(0,0,0,0.85);
+                    border-radius: 15px;
+                .masthead {
+                    position: fixed;
                 }
                 @keyframes fadeIn {
                   from {
