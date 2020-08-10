@@ -468,6 +468,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     margin-right: auto;
                     background-color: rgba(0,0,0,0.85);
                     border-radius: 15px;
+                 }
                 .masthead {
                     position: fixed;
                 }
