@@ -194,7 +194,7 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 1px solid rgba(255,255,255,.1);
 }
 .sidebar-nav-item {
-  display: none;
+  display: block;
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255,255,255,.1);
 }
@@ -429,8 +429,9 @@ a.pagination-item:hover {
  */
 
 .layout-reverse .sidebar {
-  left: auto;
+  left: calc(100% - 14rem);
   right: -14rem;
+  z-index: 10;
 }
 .layout-reverse .sidebar-toggle {
   left: auto;
