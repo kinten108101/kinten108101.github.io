@@ -83,19 +83,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 async="async"
               ></script>
             - | # 网站背景图片，分竖屏、宽屏；改链接即可，不想用可以把这一项全删掉；要换壁纸图片的话可把url内的部分换成你自己的，比如你放在 /assets/image/background.jpg，那就改成 url(/assets/image/background.jpg)
-              <script type="text/javascript">                 
-                let list = [https://i.gifer.com/2RAP.gif,https://i.pinimg.com/originals/82/61/13/826113ad32c9e91fe1de046f104ae192.gif,https://24.media.tumblr.com/7bc3019350448cd056ac292ef1159cda/tumblr_n5d0u9RzoA1s2wio8o1_500.gif]
-                function ChangeIt() 
-                {
-                let root = document.documentElement;
-                var num = Math.ceil( Math.random() * list.length);
-                root.style.setProperty('--img-url',list[num-1]);
-                }
-              </script>
+              
               <style>
-                :root {
-                    --img-url: https://24.media.tumblr.com/7bc3019350448cd056ac292ef1159cda/tumblr_n5d0u9RzoA1s2wio8o1_500.gif;
-                }
+                
                 .wrap {
                   transition-property: width,background-size,transform;
                   transition-duration: .3s;
