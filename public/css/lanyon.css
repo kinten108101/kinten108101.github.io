@@ -429,9 +429,8 @@ a.pagination-item:hover {
  */
 
 .layout-reverse .sidebar {
-  left: calc(100% - 14rem);
+  left: auto;
   right: -14rem;
-  z-index: 10;
 }
 .layout-reverse .sidebar-toggle {
   left: auto;
