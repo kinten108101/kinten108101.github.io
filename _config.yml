@@ -70,9 +70,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 rel="stylesheet"
                 href="https://cdn.jsdelivr.net/gh/Dreamer-Paul/Pio@2.4/static/pio.min.css"
               />
-              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" />
-              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" />
-              <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:wght@700&display=swap" />
               <link 
                 rel="stylesheet"
                 href="/public/css/tag.css"
@@ -132,7 +129,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 html {
                   text-align: left;
                   font-size: 14px;
-                  font-family: 'Ubuntu', monospace;
+                  font-family: 'Segoe UI','Ubuntu', monospace;
                   font-weight: normal;
                 }
               </style>
@@ -473,25 +470,28 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     
                 }
                 .container.content {
-                    padding-top: 1rem;
-                    padding-bottom: 1rem;
-                    margin-bottom: 1.5rem;
-                    padding-left: 2.5rem;
-                    padding-right: 2.5rem;
-                    color: rgb(148 148 148);
-                    animation-duration: 2s;
-                    animation-name: fadeIn;
+padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    color: rgb(121 121 121);
+    line-height: 1.35em;
+    font-weight: 500;
+    font-stretch: condensed;
+    animation-duration: 2s;
+    animation-name: fadeIn;
                     
                 }
                 .container {
-                    min-width: 46.6%;
-                    max-width: 38rem;
-                    margin-top: 10rem;
-                    margin-left: 15vw;
-                    margin-right: 15vw;
-                    background-color: rgba(0,0,0,0.85);
-                    border-radius: 15px;
-                    z-index: 0;
+min-width: 46.6%;
+    max-width: 38rem;
+    margin-top: 10rem;
+    margin-left: 15vw;
+    margin-right: 15vw;
+    background-color: #ffffff;
+    border-radius: 15px;
+    z-index: 0;
                  }
                 .masthead {
                     position: fixed;
@@ -524,11 +524,14 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               </style>
               
         post:
+          author:
+            enable: true
+            prepend: @
           thumbnail:
             enable: true
           date: # 显示博文时间
             enable: true
-            prepend: <i class="fas fa-calendar-day fa-fw"></i>
+            prepend: at
           tags: # 显示博文标签
             enable: true
             prepend: <i class="fas fa-tag fa-fw"></i>  
@@ -545,6 +548,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: true
             prepend: <i class="fas fa-book-reader fa-fw"></i>
             unit: Views
+          
           
           copyright:
             （Further copyright notice TBA）<br/>
