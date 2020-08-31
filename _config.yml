@@ -137,7 +137,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <style>
                 .sidebar {
                   font-size: 12px;
-                  font-family: 'Roboto Mono', serif;
+                  font-family: 'Segoe UI', serif;
                   font-weight: bold;
                 }
               </style>
@@ -530,10 +530,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             enable: true
           date: # 显示博文时间
             enable: true
-            prepend: at
+            prepend: at 
           tags: # 显示博文标签
             enable: true
-            prepend: <i class="fas fa-tag fa-fw"></i>  
+            prepend: 
           wordcount: # 统计全文字数
             enable: true
             prepend: <i class="fas fa-file-word fa-fw"></i>

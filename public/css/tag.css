@@ -1,13 +1,17 @@
 .tagblock {
+	border-radius: 0.4em;
 	display: inline-block;
-	background-color: dodgerBlue;
-	font-family: "Anonymous Pro", serif;
+	background-color: dodgerblue;
 	font-weight: bold;
-	margin: 0px 4px;
-	padding: 0px 6px;
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+	margin-top: -0.2em;
 	text-align: left;
 	float: none;
 	color: white;
+	font-size: 1em;
+	word-break: break-word;
+	transform: translateY(-0.1em);
 }
 
 .tagblock:hover {

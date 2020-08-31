@@ -81,12 +81,14 @@ a:focus {
 a.post-date {
 	color: LightSlateGray;
 	font-size: inherit;
-	font-weight: 600;
 }
 .post-title {
-	color: Black;
 	font-size: 1.5em;
-	font-weight: 600;
+    margin-top: 0.1em;
+    margin-bottom: 2.5em;
+    font-weight: 700;
+    display: inline;
+    word-break: break-word;
 }
 
 /* Headings */
@@ -353,7 +355,6 @@ tbody tr:nth-child(odd) th {
 .page,
 .post {
   margin-bottom: 2em;
-  padding-right: 5rem;
 }
 
 /* Blog post or page title */
@@ -362,17 +363,14 @@ tbody tr:nth-child(odd) th {
 .post-title a {
   color: #303030;
 }
-.page-title,
-.post-title {
-  margin-top: 0;
-}
 
 /* Meta data line below post title */
 .post-date {
-  display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
-  color: #9a9a9a;
+    display: block;
+    margin-top: 2rem;
+    margin-bottom: 0rem;
+    font-weight: 700;
+    color: #9a9a9a;
 }
 
 /* Related posts */
