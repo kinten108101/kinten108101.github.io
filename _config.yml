@@ -470,28 +470,27 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     
                 }
                 .container.content {
-padding-top: 1rem;
-    padding-bottom: 1rem;
-    margin-bottom: 1.5rem;
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-    color: rgb(121 121 121);
-    line-height: 1.35em;
-    font-weight: 500;
-    font-stretch: condensed;
-    animation-duration: 2s;
-    animation-name: fadeIn;
-                    
+                    padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    margin-bottom: 1.5rem;
+                    padding-left: 2.5rem;
+                    padding-right: 2.5rem;
+                    color: rgb(121 121 121);
+                    line-height: 1.35em;
+                    font-weight: 500;
+                    font-stretch: condensed;
+                    animation-duration: 2s;
+                    animation-name: fadeIn;
                 }
                 .container {
-min-width: 46.6%;
-    max-width: 38rem;
-    margin-top: 10rem;
-    margin-left: 15vw;
-    margin-right: 15vw;
-    background-color: #ffffff;
-    border-radius: 15px;
-    z-index: 0;
+                    min-width: 46.6%;
+                    max-width: 38rem;
+                    margin-top: 10rem;
+                    margin-left: 15vw;
+                    margin-right: 15vw;
+                    background-color: #ffffff;
+                    border-radius: 15px;
+                    z-index: 0;
                  }
                 .masthead {
                     position: fixed;
