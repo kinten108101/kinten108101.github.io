@@ -525,7 +525,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
         post:
           author:
             enable: true
-            prepend: @
+            prepend: By 
           thumbnail:
             enable: true
           date: # 显示博文时间
