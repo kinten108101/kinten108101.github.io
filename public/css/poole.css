@@ -78,7 +78,7 @@ a:hover,
 a:focus {
   text-decoration: underline;
 }
-a.post-date {
+.post-date.a {
 	color: LightSlateGray;
 	font-size: inherit;
 }
@@ -367,7 +367,7 @@ tbody tr:nth-child(odd) th {
 /* Meta data line below post title */
 .post-date {
     display: block;
-    margin-top: 2rem;
+    margin-top: 0.2rem;
     margin-bottom: 0rem;
     font-weight: 700;
     color: #9a9a9a;
