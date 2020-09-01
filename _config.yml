@@ -528,22 +528,22 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             prepend: By 
           thumbnail:
             enable: true
-          date: # 显示博文时间
+          date: 
             enable: true
-            prepend: on 
-          tags: # 显示博文标签
+            prepend: ond  
+          tags: 
             enable: true
             prepend: 
-          wordcount: # 统计全文字数
+          wordcount: 
             enable: true
             prepend: <i class="fas fa-file-word fa-fw"></i>
             unit: " words"
-          readtime: # 计算文章阅读时间
+          readtime: 
             enable: false
             prepend: <i class="fas fa-clock fa-fw"></i>
             unit: Minutes
-            divided_by: 300 # 正常人的阅读速度大概每分钟三百个字
-          visitor: # 需要引入并开启valine的visitor选项使之开始计数; 可能会和busuanzi统计的有出入
+            divided_by: 300 
+          visitor: 
             enable: true
             prepend: <i class="fas fa-book-reader fa-fw"></i>
             unit: Views
