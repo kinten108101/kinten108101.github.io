@@ -1,0 +1,34 @@
+---
+layout: post
+title: Making toys VS making sure not wasting them
+author:
+  - Kinten
+date: 09/02/2020
+thumbnail: /_site/image/tumblr_oxm9u5m42k1v4u49oo1_400.gif
+tags: update
+excerpt: In some ways or another, this serves as an introduction to my probably
+  first static site. The day when I'm writing this however has been particularly
+  laboring, me dragging my as* off destinations to another, so I'll make this
+  quick.
+---
+In some ways or another, this serves as an introduction to my probably first static site. The day when I'm writing this however has been particularly laboring, me dragging my as* off destinations to another, so I'll make this quick.
+
+My dabbling with site-making has not been fruition. Despite self-acclaiming as a blogger, I've barely made enough for a month; then as a sci-fi writer, the genre I've known but fell pale in comparison to my peer. I don't write much, for the moment keys are typed I'll forever keep failing at my words, so much so that deep in my cranium there's a "cerebral cavity", literal or not. Reading is one thing - the one activity taken for granted, with me jotting down any possible collocations or word combinations, but becoming effluent is another. My every aspect lacks practice, for the only spare time boils down to infinite scrolling and compulsion loops, redundancies that have plagued my unbecoming childhood and to this day. Nighttime is preferable as the mere thought of opening an app triggers every exhaustion, anxiety and
+
+Essentially, the initially registered concept of an English major is a pure one - so that I could write more. Following were the last straws, and I panned out realizing one year later that there exist some who are just as devoted as I were, except that unlike me they'd never left the race. Incidentally, this accounts more my lack of update on the #PROJECT-WATER. The foundation is great, and the on-paper girders and structures for worldbuilding stand there - yet only right beside the piling stacks of work and compulsive delays. Those who know me well enough could see how this spells trouble: I'm volatile at work and demands. If it's unfinished, it never will. The old drafts for my first story fell prey to this malpractice, among others.
+
+Yet, there's more. The original 925weblog was great, but it lacked customization. In fact, no one besides amateur shopkeepers should bother fiddling with it. Wordpress.org makes itself the obvious upgrade in every possible way, yet the setup proves costly, and further is the existential dread of using its user-made static site generators, all of which bugged only on my machine. So I opted for Jekyll, and ever since a day hadn't gone by without me slowly chopping off somebody else's template, transforming toys of my own desire and by that, splashing out on my remote breaks. 
+
+Generally speaking, I've yet to find a definite answer to a more efficient approach(es) than the likes of "do it when you feel it" which constitutes the bulk of my spare time. As a great cost, hardly could I finish one single task satisfactorily, particularly #PROJECT-WATER. I could disclose no more, but the story has developed immensely over the last few months primarily in unwritten concepts. Trouble is, despite my nocturnal life as a night owl, the early hours leave me fatigued after a *hard* day's work, so there's no energy left to jot ideas down anyway. That is not to say I can't progress, but at this snail's pace it would take years to realize my intended vision, to that I dearly dread. I wish for a pill of sleeplessness, for extending each episode does more harm than good. Yet, my flying ambitions grow larger every passing day. 
+
+To be frank, the first few years of my life had seen no few ironies as I engross in mindless acts. When things finally shake up however, only more paradoxes arise. In my mind the next year would entail insightful exploration to whatever I seek to be helpful (and my current projects make good examples), but from the looks of what's coming, the circumstance is deemed too risky for anything, those straying from the laid path. 
+
+Practicing anything out of my major always comes with a cost. As a student, time isn't so relenting as to allow me to study my true necessities. And when you thought that my major should be too, I disagree. Truth is, not all subjects are congruous. Hitting two birds with one stone feels apt, but real life makes it hard to do so.  
+
+Since this summer some of my skills have improved immensely, yet I am somewhat demotivated by my own inability at producing quality content. I believe that doing anything must come with eagerness first and a desire to change. Writing within an allotted time, however, does not count. I love both subjects in that discovering is fun, yet I don't want to be reinforced that my only reason to study it was just for some makeshift international application, a make-believe success. And I'm not the only one to reckon this. We all grow up, and in the process, shifting and adapting to what we see fit, and not to mention how us sixteen-year-olds tend towards more adult subjects: the seminal interests that dictate our long-term career path or more serious subjects that mean more to our modern society. Others have questioned my motives and asked theirs, yet their majors are never an agony to them. The way I see it, either their paths remain unclear so whatever comes is viable, or that they all have the resources to buy their way into things, and only I do not (or at least because I choose to do things manually). That is what I believe - which is not wholly confirmed but that's how I see it. (Then there are the more negative influences from those I despise, but we don't bring it up here)
+
+At the outset of my journey, I've set my vision, while postulating that the chosen major however different should ultimately help. Years later and it has become an unnecessary burden by virtue of my own ignorance, not that I've performed poorly, but no longer do I have that push forward every morning since what laid behind that equivocal push has remained shrouded in mystery, on purpose, until one day when I fall and must confront the truth. With the summer coming to an end, there're no true answers but wrong ones to my existential inquiries. Or I could put it off and take drugs until the time machine is invented. 
+
+I wish I could have and will be able to accomplish more. This is not limited to #PROJECT-WATER only, but all my projects as a whole. Whatever comes next must not be toys only for sinecures. Flashy toys must benefit.
+
+<iframe src="https://drive.google.com/file/d/1ql7nZh6PiCshQR3San6L6IsOtWwfB8zC/preview" width="640" height="480"></iframe>
