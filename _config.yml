@@ -129,7 +129,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 html {
                   text-align: left;
                   font-size: 14px;
-                  font-family: 'Segoe UI','Ubuntu', monospace;
+                  font-family: 'Helvetica','Ubuntu', monospace;
                   font-weight: normal;
                 }
               </style>
@@ -137,7 +137,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               <style>
                 .sidebar {
                   font-size: 12px;
-                  font-family: 'Segoe UI', serif;
+                  font-family: 'Helvetica', serif;
                   font-weight: bold;
                 }
               </style>
@@ -149,7 +149,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 h4,
                 h5,
                 h6 {
-                  font-family: 'Segoe UI', serif;
+                  font-family: 'Helvetica', serif;
                   font-weight: bold;
                 }
               </style>
@@ -459,7 +459,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 给文章加上磨砂背景，防止被背景影响阅读；同时加上加载动画
               <style>
                 .thumbnail {
-                    display: inline;
+                    display: inline-block;
                     position: absolute;
                     width: 100%;
                     height: auto;
@@ -475,10 +475,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     margin-bottom: 1.5rem;
                     padding-left: 2.5rem;
                     padding-right: 2.5rem;
-                    color: rgb(121 121 121);
-                    line-height: 1.35em;
-                    font-weight: 500;
-                    font-stretch: condensed;
+                    color: #333;
+                    line-height: 1.42857143;
+                    font-weight: 400;
                     animation-duration: 2s;
                     animation-name: fadeIn;
                 }
@@ -499,7 +498,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     padding-bottom: 0.4rem;
                     margin-top: 0rem;
                     margin-bottom: auto;
-                    z-index: 2;
+                    z-index: -2;
                 }
                 .masthead.image {
                     padding-left: 5vw;
