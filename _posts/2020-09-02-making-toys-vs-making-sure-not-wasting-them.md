@@ -4,7 +4,7 @@ title: Making toys VS making sure not wasting them
 author:
   - Kinten
 date: 09/02/2020
-thumbnail: /_site/image/tumblr_oxm9u5m42k1v4u49oo1_400.gif
+thumbnail: /_site/image/picskakosvki.png
 tags: update
 excerpt: In some ways or another, this serves as an introduction to my probably
   first static site. The day when I'm writing this however has been particularly
