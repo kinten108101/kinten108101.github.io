@@ -1,6 +1,8 @@
 ---
 layout: post
 title: 1. Web Scraper(s)
+author:
+  - kinten108101
 date: 08/08/2020
 thumbnail: /_site/image/ddassa.jpg
 tags: api restapi
@@ -12,4 +14,4 @@ In previous attempts, including that one time where a pirated books dispersed ac
 
 *Let Python do the rest*.
 
-This is no remarkable feat by any means. Yahoo! Pipes first drove APIs home in the early 2000s, then got executed. Today, Node-red dominates the crossing of Arduino and APIs, but behind of them all is Python (and Nodejs). Plenty of application programming interfaces are ready-made open sources or not, thus only some coding skills are required to, well, interface between them. We've seen Michael, Cary, Dani, et cetera - you name it - making good uses out of them every once in a while. Now it's my turn.
+This is a remarkable feat by no means. Yahoo! Pipes first drove APIs home in the early 2000s, then got executed. Today, Node-red dominates all budding crossovers between Arduino and APIs, but behind them all lies the backbone programming language Python, not to mention the server environment in its aid, NodeJS. Plenty of applications, programming interfaces are ready-made and open sources already, so only some coding skills are required to, well, interface between them. We've seen Michael, Cary, Dani, et cetera - you name it - making good uses out of them every once in a while. Now it's my turn.
