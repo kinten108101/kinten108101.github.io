@@ -2,7 +2,7 @@
 layout: post
 title: "MANGA REVIEW: Oyasumi Punpun (Spoiler)"
 author:
-  - Tatsuya
+  - Watannabe Tatsuya
 date: 12/10/2020
 thumbnail: /_site/image/92283033361625824e9243931bdeec93.jpg
 tags: "review "
