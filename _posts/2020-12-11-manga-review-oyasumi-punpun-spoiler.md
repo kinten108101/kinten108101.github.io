@@ -4,7 +4,7 @@ title: "MANGA REVIEW: Oyasumi Punpun (Spoiler)"
 author:
   - Kinten
 date: 12/10/2020
-thumbnail: /_site/image/ddassa.jpg
+thumbnail: /_site/image/92283033361625824e9243931bdeec93.jpg
 tags: "review "
 excerpt: "Love and tragedy, that no one could be happy forever. Still, it's the
   decision to never settle that drives us forward. As part of an unfiddled-with
@@ -21,6 +21,8 @@ The bright and dark sides of all characters. Humanity at the cost of respect and
 \- Horny, ugly, selfish (best bud), 
 
 the will to move on. 
+
+dialogues from the guiding figures are drawn in black boxes
 
 Seki - follows a life of self-guidance. challenge: distraction, aberration, lack of real ambitions or achievements, assholic acquaintances. advantage: self-growth in endurance and code. To be blunt, his lifestyle was arresting to those who've been chained away for too long. 
 
