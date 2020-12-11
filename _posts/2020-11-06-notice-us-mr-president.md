@@ -3,7 +3,7 @@ layout: post
 title: Notice us, Mr. President!
 author:
   - Kinten
-date: 10/14/2020
+date: 14/10/2020
 thumbnail: /_site/image/195a.jpg
 tags: op-ed
 excerpt: "POV: The presidential election is coming to a close, and the charged
