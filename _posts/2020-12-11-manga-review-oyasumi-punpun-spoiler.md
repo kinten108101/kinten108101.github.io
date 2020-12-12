@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "[Q.1] MANGA REVIEW: Oyasumi Punpun (Spoiler)"
+title: "[Q.1] MANGA ANALYSIS: Oyasumi Punpun (Spoiler)"
 author:
   - Watannabe Tatsuya
 date: 12/10/2020
@@ -16,9 +16,17 @@ excerpt: "(The image is temporal) Love and tragedy, that no one could be happy
 
 (Draw the header)
 
-In Abrahamic religions, a messiah or messias is a saviour or liberator of a group of people. Many stories introduce a certain figure as messiah who serves as either a call to adventure or a spur to action, and at first it would ring a bell to followers of romanticism with works like *the Shawshank Redemption, FLCL,...* A messiah, however, is not so strange but still uncommon a figure in realist media, often portrayed as a disciplined person who breaks with traditions yet also deconstructed to be as flawed as others. 
+"In Abrahamic religions, a messiah or messias is a saviour or liberator of a group of people." Many stories introduce a certain figure as messiah who serves as either a call to adventure or a spur to action, and at first it would ring a bell to followers of romanticism. A messiah, however, is not so strange but still uncommon a figure in realist media,  often portrayed as a disciplined person who breaks with traditions yet also deconstructed to be as flawed as others. 
 
-As a 2009-2013 147-chapter manga series written by manga artist Inio Asano who is known for his hit manga *Solanin*, Oyasumi Punpun has been sitting at 7th in MyAnimeList's Top Manga list; and while it has been praised for anything, not so often the above story-telling motif is concerned. Perhaps due to ubiquity, an ongoing stigma, or perhaps an uninteresting addition to Onodera's life story that relates only to few people like me? To this end, I wish to dive into the life and mindset of this manga's two more obscure figures - the miso-factory messiah duo Masume and Nanjou, who in actuality play pivotal roles in completing Goodnight Punpun's story, especially on that 7th of July.
+As a 2009-2013 147-chapter manga series written by manga artist Inio Asano who is known for his hit manga *Solanin*, *Oyasumi Punpun*, translated to *Goodnight Punpun*, has been sitting at 7th in MyAnimeList's Top Manga list; and while it has been praised for anything, not so often the above story-telling motif is concerned. Perhaps due to ubiquity, an ongoing stigma, or perhaps an uninteresting addition to Onodera's life story that relates only to few people like me? To this end, I wish to dive into the life and mindset of this manga's two supporting figures - the miso-factory messiah duo Masume and Nanjou, both of whom, in actuality, play pivotal roles in completing Goodnight Punpun's story, especially on that 7th of July.
+
+I believe that 
+
+, a literary approach that glorifies a personal spirit often through the portrayal of active characters that mature and overcome a long-standing struggle or opposing force - the drive of most narratives
+
+
+
+where characters are instead passive and do succumb to the outside forces,
 
 
 
@@ -59,3 +67,5 @@ I'm
 wake up call
 
 ""
+
+References:
