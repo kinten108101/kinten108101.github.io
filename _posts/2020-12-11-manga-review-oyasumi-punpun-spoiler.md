@@ -44,7 +44,7 @@ dialogues from the guiding figures are drawn in black boxes
 
 Seki - follows a life of self-guidance. challenge: distraction, aberration, lack of real ambitions or achievements, assholic acquaintances. advantage: self-growth in endurance and code. To be blunt, his lifestyle was arresting to those who've been chained away for too long. 
 
-Sachi - determined, probably the most rightfully successful character. sympathetic: willingly sacrifice her name and reputation to help others. Even if it was revealed that her sympathy may stem from self-centeredness, glorifying herself and degrading punpun so as to be a guiding figure, the length she goes to to redeem herself serves as her redeeming feature. =
+Sachi - determined, probably the most rightfully successful character. sympathetic: willingly sacrifice her name and reputation to help others. Even if it was revealed that her sympathy may stem from self-centeredness, glorifying herself and degrading punpun so as to be a guiding figure, the length she goes to to redeem herself serves as her redeeming feature.
 
 always believe themselves to be superior, selfishly love others.
 
