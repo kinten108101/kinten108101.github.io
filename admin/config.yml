@@ -11,7 +11,7 @@ local_backend:
   allowed_hosts: ['192.168.0.1']
 publish_mode: editorial_workflow
 media_folder: "assets/image"
-public_folder: "/assets/image"
+public_folder: "/_site/image"
 collections:
   - name: "post" 
     label: "Post" 
