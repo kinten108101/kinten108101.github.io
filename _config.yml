@@ -530,7 +530,9 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 .sidebar details {
                     margin-left: 1rem;
                 }
-
+                .sidebar-item {
+                    padding-bottom: 0.5rem;
+                }
                 
                 @keyframes fadeIn {
                   from {
