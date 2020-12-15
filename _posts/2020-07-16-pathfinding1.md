@@ -8,7 +8,7 @@ excerpt: On the Fly Path-finding Mechanism, an ML project that will never pan ou
 ---
 A perceptron is a simple, shallow neural network that accepts an input, through some activation units, then an output - 3 layers. In a CNN Convolutional Neural Network, they are 1-dimensional FCLs Fully Connected Layers (aka FLCL)
 
-A CNN Convolution is consisted of convolutional and pooling layers (scanning filter-like layers that capture prominent features) and FLCLs. LeNet, introduced by Yann LeCun et al, is among the oldest and simplest CNNs, which gathered a cult following of geeks and researchers. There are now AlexNet, VGG, GoogLeNet, ResNet, InceptionNet, ...
+A CNN Convolution is consisted of convolutional and pooling layers (scanning filter-like layers that capture prominent features) and FLCLs. LeNet, introduced by Yann LeCun et al, is among the oldest and simplest CNNs, which gathered a cult following of geeks and researchers. There are now AlexNet, VGG, GoogLeNet, ResNet, InceptionNet,...
 
 ![A graph demonstrating LeNet](https://www.researchgate.net/profile/Yiren_Zhou/publication/312170477/figure/fig1/AS:448817725218816@1484017892071/Structure\-of\-LeNet\-5.png "LeNet first brought the concept of CNN to mainstream ML in 1998")
 
