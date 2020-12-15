@@ -525,7 +525,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 a:hover,
                 a:focus {
                     font-style: oblique;
-                    color: white;
+                    color: wheat;
+                    text-decoration: none;
                 }
                 a:visited {	
                     color: #545454;
