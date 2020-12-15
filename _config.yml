@@ -219,7 +219,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   async='async'
                   onload='
                     SimpleJekyllSearch({
-                      json: "/assets/simple-jekyll-search/search.json",
+                      json: "search.json",
                       searchInput: document.getElementById("sidebar-search-input"),
                       resultsContainer: document.getElementById("sidebar-search-results-container"),
                       searchResultTemplate: `<li><a href="{url}">{title}</a></li>`,
