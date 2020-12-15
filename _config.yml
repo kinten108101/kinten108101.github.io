@@ -533,6 +533,17 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 .sidebar-item {
                     padding-bottom: 0.5rem;
                 }
+                /*
+                iframe#sidebar-soundcloud {
+                    margin-top: 2rem;
+                }
+                */
+                .sidebar ul {
+                    margin-bottom: 0.25rem;
+                }
+                .sidebar.archive {
+                    margin-bottom: 2rem;
+                }
                 
                 @keyframes fadeIn {
                   from {
