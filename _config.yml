@@ -544,6 +544,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 
                 .sidebar ul {
                     margin-bottom: 0.25rem;
+                    list-style-type: none;
+                    margin-left: -2rem;
+                }
+                .sidebar ul li {
+                    margin: 0.3rem 0rem;
+                    line-height: 1rem;
                 }
                 .sidebar .archive {
                     margin-bottom: 2rem;
