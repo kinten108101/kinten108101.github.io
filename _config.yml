@@ -279,6 +279,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                 </style>
               - | # 运行时间，可将倒数第三行的时间改成你自己的建站时间，格式仿照上面的；不需要的话可以把这一项都删掉
+                <!--
                 <div>
                   <i class="fas fa-cog fa-spin fa-fw"></i>
                   <span id="run_time_day">
@@ -356,6 +357,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     jekyll-theme-WuK
                   </a>
                 </div>
+                -->
               - | # Copyright声明
                 <div>
                   <i class="fas fa-copyright fa-fw"></i>
@@ -523,6 +525,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 a:hover,
                 a:focus {
                     font-style: oblique;
+                    color: white;
                 }
                 a:visited {	
                     color: #545454;
@@ -533,15 +536,15 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 .sidebar-item {
                     padding-bottom: 0.5rem;
                 }
-                /*
+                
                 iframe#sidebar-soundcloud {
-                    margin-top: 2rem;
+                    
                 }
-                */
+                
                 .sidebar ul {
                     margin-bottom: 0.25rem;
                 }
-                .sidebar.archive {
+                .sidebar .archive {
                     margin-bottom: 2rem;
                 }
                 
