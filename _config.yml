@@ -110,7 +110,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     
                   }
                 }
-                @media (max-aspect-ratio: 1176/1850) {
+                @media (max-aspect-ratio: 1175/726) {
                   .container.content {
                     padding-left: 1rem;
                     padding-right: 1rem;
