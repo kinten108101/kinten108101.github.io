@@ -485,13 +485,13 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     animation-name: fadeIn;
                 }
                 .container {
-                    min-width: 46.6%;
+                    
                     max-width: 100%;
                     margin-top: 10rem;
-                    margin-left: 15vw;
-                    margin-right: 15vw;
+                    margin-left: 0;
+                    margin-right: 0;
                     background-color: #ffffff;
-                    border-radius: 15px;
+                    border-radius: 0;
                     z-index: 0;
                  }
                 img {
