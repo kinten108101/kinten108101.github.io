@@ -243,7 +243,7 @@ img {
   display: block;
   max-width: 100%;
   margin: 0 0 1rem;
-  border-radius: 5px;
+  
 }
 
 /* Tables */
@@ -297,7 +297,7 @@ tbody tr:nth-child(odd) th {
  * Center the page content.
  */
 
-.container {
+.acontainer {
   max-width: 38rem;
   padding-left:  1rem;
   padding-right: 1rem;

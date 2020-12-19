@@ -1,5 +1,5 @@
 title: urora # 站点标题
-tagline: AI, AP, SR, ... The middle one, as in auroral particles, dawns our simulation.
+tagline: A blogging site of Kinten, nothing unusual.
 description: | # 头像背后的信息（html格式），<br/>代表换行
   from the web jaeger who wrote sci-fis ..<br/>
   <a href="https://twitter.com/kinten108101">
@@ -101,12 +101,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     
                   }
                   .container {
-                    margin-left:5vw;
-                    margin-right:5vw;
+                    margin-left:0;
+                    margin-right:0;
                   }
                   .container.content {
-                    padding-left: 1rem;
-                    padding-right: 1rem;
+                    padding-left: 19vw;
+                    padding-right: 35vw;
                     
                   }
                 }
@@ -371,7 +371,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               unit: words
         page:
           masthead: # 显示顶栏
-            enable: true
+            enable: false
           katex: # katex 数学公式插件
             enable: true
             append: |
@@ -475,17 +475,18 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     padding-top: 1rem;
                     padding-bottom: 1rem;
                     margin-bottom: 1.5rem;
-                    padding-left: 2.5rem;
-                    padding-right: 2.5rem;
+                    
+                    
                     color: #333;
                     line-height: 1.42857143;
                     font-weight: 400;
+                    font-size: 12px;
                     animation-duration: 2s;
                     animation-name: fadeIn;
                 }
                 .container {
                     min-width: 46.6%;
-                    max-width: 38rem;
+                    max-width: 100%;
                     margin-top: 10rem;
                     margin-left: 15vw;
                     margin-right: 15vw;
@@ -493,6 +494,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     border-radius: 15px;
                     z-index: 0;
                  }
+                img {
+                    width:100%;
+                    max-width: 450px;
+                    border-radius:0;
+                }
+
                 .masthead {
                     position: fixed;
                     padding-left: 15vw;
