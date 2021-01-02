@@ -6,7 +6,7 @@ author:
 date: 12/29/2020
 thumbnail: /assets/image/fairing1.jpg
 tags: log
-excerpt: It's been quite a hiatus since i last posted anything worth noting. Here's why.
+excerpt: "It's been quite a hiatus since i last posted anything worth noting. "
 ---
 *It's been quite a hiatus since i last posted anything worth noting, here's why.*\
 \
