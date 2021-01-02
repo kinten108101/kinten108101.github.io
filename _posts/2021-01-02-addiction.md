@@ -16,7 +16,7 @@ Partly I blame it to my somewhat mild depression - as a result of my previous fa
 \
 Time to curb my addiction. In every way it is now the time of great urgence given that upcoming is my High School test and, if possible, my application for an abroad study.\
 \
-There are few ways to compensate this other than some serious late-nighters, albeit due to procrastination my entire life has BEEN a latenighteralypse. Therefore, I devise that a schedule, and some form of adherence, be necessary. Better yet, I believe that working in groups, particularly among productive people, should arouse my innate desire to strive for more, overcoming this languid feeling of restless self-entertainment when I'm momentarily devoid of any specific goals (in fact, I do admit that however the reminder list is laid, I find it rare that it attracts me more than the nagging sensation of "just 15 minutes of fallout and I will still be fine").\
+There are few ways to compensate this other than some serious nighters, albeit due to procrastination my entire life has BEEN a nighter-pocalypse. Therefore, I devise that a schedule, and some form of adherence, be necessary. Better yet, I believe that working in groups, particularly among productive people, should arouse my innate desire to strive for more, overcoming this languid feeling of restless self-entertainment when I'm momentarily devoid of any specific goals (in fact, I do admit that however the reminder list is laid, I find it rare that it attracts me more than the nagging sensation of "just 15 minutes of fallout and I will still be fine").\
 \
 Whatever, I'll just try. By the way, happy new year 2021. Made a resolution on Facebook already but I've been too lazy to translate it.
 
