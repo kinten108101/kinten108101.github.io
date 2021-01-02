@@ -3,12 +3,12 @@ layout: post
 title: Addiction
 author:
   - Kinten
-date: 24/12/2020
+date: 12/24/2020
 thumbnail: /assets/image/fairing1.jpg
 tags: log
 excerpt: It's been quite a hiatus since i last posted anything worth noting. Here's why.
 ---
-*It's been quite a hiatus since i last posted anything worth noting. Here's why.*\
+*It's been quite a hiatus since i last posted anything worth noting, here's why.*\
 \
 Lately I've been coming up with crazy ideas in both the novel and scientific project. There's also a manga review in production. Yet none of which have come into fruition. It all started in September when I first got used to the concept of paying for Steam games, and ever since there's been this need of constantly being fed hours of non-fulfilling games, particularly L4D2 - the trailblazer - and Fallout New Vegas, among others. Indeed, it comes at a heavy price, partly in the forms of my underperformance across all subjects and not to mention, of my lack of self-satisfaction in every aspect of life. The tendency now goes that I'm always underwhelmed: late for class, late for homework, late for deadlines, comprised of both work and personal ones. The climax, I daresay, speaks volumes in my Chemistry exam where I scored barely above average. Quite a shame.\
 \
