@@ -3,7 +3,7 @@ layout: post
 title: Addiction
 author:
   - Kinten
-date: 12/24/2020
+date: 12/29/2020
 thumbnail: /assets/image/fairing1.jpg
 tags: log
 excerpt: It's been quite a hiatus since i last posted anything worth noting. Here's why.
