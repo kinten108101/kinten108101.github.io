@@ -5,7 +5,7 @@ author:
   - Kinten
 date: 24/01/2021
 thumbnail: /assets/image/randomsign.jpg
-tags: update changes-needed
+tags: log
 excerpt: Issues aside, I've taken great delight in drawing with the aid of
   Photoshop and a barebone Huion drawing tablet.
 ---
