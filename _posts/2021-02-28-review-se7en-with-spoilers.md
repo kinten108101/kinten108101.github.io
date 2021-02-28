@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "[REVIEW] SE7EN, with spoilers."
+title: SE7EN
 author:
   - Kinten
 date: 28/02/2021
 thumbnail: /assets/image/maxresdefault.jpg
-tags: review
+tags: review spoiler
 excerpt: Directed by David Fincher and written by Andrew Kevin Walker and
   starring Brad Pitt, Morgan Freeman and Kevin Spacey, Seven (stylized as
   SE7EN), after 26 years, has yet to find enough worthy opponents; if anything,
