@@ -89,6 +89,7 @@ a:focus {
     font-weight: 700;
     display: inline;
     word-break: break-word;
+    line-height: 1em;
 }
 
 /* Headings */
