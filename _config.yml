@@ -106,7 +106,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   }
                   .container.content {
                     padding-left: 19vw;
-                    padding-right: 50vw;
+                    padding-right: 40vw;
                     
                   }
                 }
