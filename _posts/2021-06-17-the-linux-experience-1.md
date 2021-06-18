@@ -30,7 +30,7 @@ On an unrelated note, my endeavor to make ibus-bamboo functional has come into s
 
 I did come across similar issues claimed on Github, and there are varying solutions to this. Heck, I came to learn that our problems were not identical.
 
-One solution pertains to ENV. On Windows, we are already familiar with the concept of environment variables, one of which is PATH. Similar to Linux there's ENV, the same but can be accessed easily with $ env . Now, there are variables that dictate which IM (input module) to use in which app platform. These are: 
+One solution pertains to ENV. On Windows, we are already familiar with the concept of environment variables, one of which is PATH. Similarly, on Ubuntu there's ENV, the same but can be accessed easily with `$ env` . Now, there are variables that dictate which IM (input module) to use in which app platform. These are: 
 
 As random as it sounds, using export GTK_IM_MODULE=XIM works, but only when the app is opened from the console (not from the .desktop). This means that currently for me to type Vietnamese on Opera *như thế này*, the app must be started from the terminal, which will be left open and printing until the app is closed. Not efficient.  
 
