@@ -419,12 +419,12 @@ a.pagination-item:hover {
  */
 
 .layout-reverse .sidebar {
-  left: auto;
-  right: -14rem;
+  left: -14rem;
+  right: auto;
 }
 .layout-reverse .sidebar-toggle {
   left: auto;
-  right: 1rem;
+  right: 14rem;
 }
 
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar,
