@@ -419,7 +419,7 @@ a.pagination-item:hover {
  */
 
 .layout-reverse .sidebar {
-  left: -14rem;
+  left: auto;
   right: auto;
 }
 .layout-reverse .sidebar-toggle {
