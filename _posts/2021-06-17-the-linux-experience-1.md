@@ -41,7 +41,7 @@ One solution pertains to ENV. On Windows, we are already familiar with the conce
 
 As random as it sounds, using `export GTK_IM_MODULE=XIM` works, but only when the app is opened from the console (not from the .desktop). This means that currently for me to type Vietnamese on Opera *như thế này*, the app must be started from the terminal, which will be left open and printing until the app is closed. Not efficient.  
 
-![](/assets/image/gotiengviet.gif){.content-image}
+![](/assets/image/gotiengviet.gif)
 
 Specifically, I heard that apps downloaded from, or handled by, snap are experiencing these kinds of issues: or as some Vietnameses put it, they are not supported. In reality, after some testing, I found that this may not necessarily hold. Granted that Opera and VSCode, formerly snap-based, are compatible with the ibus input module after being reinstalled from .deb instead, there remain others who are the exceptions by not being functional with ibus despite not being sourced from snap, and even such groups make no sense. For example, the search bar in the overview can be typed Vietnamese in, but not the bar in Settings, both of which are system, GNOME apps. 
 
