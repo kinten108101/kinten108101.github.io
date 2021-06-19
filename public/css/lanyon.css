@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   top: 0;
   bottom: 0;
-  left: 14rem;
+  left: auto;
   width: 14rem;
   visibility: visible;
   overflow-y: auto;
@@ -244,6 +244,10 @@ a.sidebar-nav-item:focus {
   background-color: #555;
 }
 
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+  transform: translateX(-14rem);
+}
+
 .sidebar-toggle:active:before,
 #sidebar-checkbox:focus ~ .sidebar-toggle::before,
 #sidebar-checkbox:checked ~ .sidebar-toggle::before {
@@ -277,7 +281,9 @@ a.sidebar-nav-item:focus {
 .wrap {
   z-index: 0;
 }
-.sidebar,
+.sidebar {
+  z-index: -1;
+}
 .sidebar-toggle {
   z-index: 1;
 }
@@ -297,8 +303,6 @@ a.sidebar-nav-item:focus {
 
 
 #sidebar-checkbox:checked + .sidebar {
-  z-index: 10;
-  visibility: visible;
 }
 #sidebar-checkbox:checked ~ .sidebar,
 #sidebar-checkbox:checked ~ .wrap,
