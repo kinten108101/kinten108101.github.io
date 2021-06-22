@@ -4,9 +4,9 @@
     <a href="{{ post.url | absolute_url }}"></a>
       <div class="post-title">{{post.title}}</div>
       <br>
-      <img class="thumbnail" src="{{page.thumbnail}}" alt="image">
+      <img class="thumbnail" src="{{post.thumbnail}}" alt="image">
     </a>
     <br>
     <br>
-    {{ content }}
+    {{ post.content }}
 </div>
