@@ -18,6 +18,7 @@ Page navigations: the next and previous buttons at the end of each post.
   display: block;
   width: auto;
   overflow: hidden;
+  display:table-cell;
 }
 
 .PageNavigation a {
@@ -53,6 +54,17 @@ h1, h2, h3, h4, h5, h6 {
 .wrap {
   position: relative;
   width: 100%;
+  transition-property: width,background-size,transform;
+  transition-duration: .3s;
+  transition-timing-function: ease-in-out;
+  min-height: 100%;
+  /*display: inline-block;*/
+  background-color: rgb(0,0,0);
+  background-size: 100vw auto;
+  background-position: top left;
+  background-repeat: no-repeat;
+  background-attachment: fixed;                  
+  padding-bottom: 0px;
 }
 
 /*
@@ -65,6 +77,7 @@ h1, h2, h3, h4, h5, h6 {
 .posts {
   overflow:auto;
 }
+
 
 /*
  * Masthead
@@ -173,7 +186,7 @@ h1, h2, h3, h4, h5, h6 {
   width:var(--width-sidebar);
   height:50rem;
   border-radius:1em;
-  display:inline-block;
+  display:table-cell;
 }
 .sidebar p {
   color:antiquewhite;
@@ -190,19 +203,47 @@ h1, h2, h3, h4, h5, h6 {
   text-transform:uppercase;
 }
 
+.container {
+  overflow: overlay;
+  display: table;
+  padding-top: 1rem;
+                    padding-bottom: 1rem;
+                    margin-bottom: 0rem;
+                    
+                    
+                    color: #333;
+                    line-height: 1.42857143;
+                    font-weight: 400;
+                    font-size: 16px;
+                    animation-duration: 2s;
+                    animation-name: fadeIn;
+
+                    max-width: 100%;
+                    margin-top: 10rem;
+                    margin-left: 0;
+                    margin-right: 0;
+                    background-color: #ffffff;
+                    border-radius: 1em 1em 0 0;
+                    z-index: 0;
+}
+
 
 @media screen and (min-width: 48em){
   .container {
     padding-left:max(var(--min-left),var(--variable));
     padding-right:20vw;
   }
-  .post {
+  .post, .posts {
     visibility:visible;
     width:var(--width-post);
     margin-left: 2em;
     margin-right: 3.5em;
     float: left;
+    
 
+  }
+  .post {
+    display:table-cell;
   }
   .sidebar-kinten {
     visibility:visible;
@@ -218,6 +259,10 @@ h1, h2, h3, h4, h5, h6 {
   .sidebar-kinten {
     visibility:hidden;
   }
+}
+
+.column-1, .column-2 {
+  display: table-row;
 }
 /*
 *     ARCHIVE
@@ -252,9 +297,14 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* COMMENT SECTION */
+#disqus_recommendations, #disqus_thread {
+  display: table-cell;
+}
+
 @media screen and (min-width: 48em){
   #disqus_recommendations, #disqus_thread {
     width:var(--width-post);
+    
   }
 }
 @media screen and (max-width: 48em){
@@ -317,12 +367,13 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .pagination {
-  overflow: hidden; /* clearfix */
+  overflow: overlay; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
+  display:contents;
 }
 
 /* Pagination items can be `span`s or `a`s */
