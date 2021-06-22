@@ -233,7 +233,7 @@ h1, h2, h3, h4, h5, h6 {
     padding-left:max(var(--min-left),var(--variable));
     padding-right:20vw;
   }
-  .post, .posts {
+  .post{
     visibility:visible;
     width:var(--width-post);
     margin-left: 2em;

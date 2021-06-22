@@ -2,46 +2,50 @@
 layout: page
 title: Home
 ---
-<div class="home-title">Latest post:</div>
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url | absolute_url }}">
-        {{ post.title }}
-      </a>
-    </h1>
-    <img class="thumbnail" src="{{ post.thumbnail }}">
-	  {{ post.content }}
-	
+<div class="column-1">
+  <div class="home-title">Latest post:</div>
+  <div class="posts">
+    {% for post in paginator.posts %}
+    <div class="post">
+      <h1 class="post-title">
+        <a href="{{ post.url | absolute_url }}">
+          {{ post.title }}
+        </a>
+      </h1>
+      <img class="thumbnail" src="{{ post.thumbnail }}">
+      {{ post.content }}
+    
 
-  <!--
-    <span class="tagblock">
-	{{ post.date | date_to_string }} in
-	{% for tag in post.tags %}
-	{{ tag | upcase }}
-	{% endfor %}
-	</span>
-	-->
+    <!--
+      <span class="tagblock">
+    {{ post.date | date_to_string }} in
+    {% for tag in post.tags %}
+    {{ tag | upcase }}
+    {% endfor %}
+    </span>
+    -->
+    </div>
+    {% endfor %}
+    <br>
   </div>
-  {% endfor %}
-  <br>
-</div>
-{% include sidebar-kinten.html%}
 
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="pagination-item older" href="{{ paginator.next_page_path | absolute_url }}">Older</a>
     {% else %}
-      <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
+      <span class="pagination-item older">Older</span>
     {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="pagination-item newer" href="{{ '/' | absolute_url }}">Newer</a>
+      {% else %}
+        <a class="pagination-item newer" href="{{ paginator.previous_page_path | absolute_url }}">Newer</a>
+      {% endif %}
+    {% else %}
+      <span class="pagination-item newer">Newer</span>
+    {% endif %}
+  </div>
+</div>
+<div class="column-2">
+  {% include sidebar-kinten.html %}
 </div>
