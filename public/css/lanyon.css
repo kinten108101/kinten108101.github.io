@@ -18,6 +18,7 @@ Page navigations: the next and previous buttons at the end of each post.
   display: table-row;
   width: auto;
   overflow: hidden;
+  float:left;
 }
 
 .PageNavigation a {
