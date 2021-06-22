@@ -1,12 +1,14 @@
 <div class="post">
     
     <div class="post-date">{{ post.date | date: "%B %-d %Y"}}</div>
-    <a href="{{ post.url | absolute_url }}"></a>
-      <div class="post-title">{{post.title}}</div>
+    <a href="{{ post.url | absolute_url }}">
+      <div class="post-title">{{post.title}}</div></a>
       <br>
+      <a href="{{ post.url | absolute_url }}">
       <img class="thumbnail" src="{{post.thumbnail}}" alt="image">
     </a>
     <br>
     <br>
+    {{ post.excerpt }}
     {{ post.content }}
 </div>

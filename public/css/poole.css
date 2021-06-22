@@ -44,22 +44,7 @@ body {
 
 
 /* No `:visited` state is required by default (browsers will use `a`) */
-a {
-  color: #268bd2;
-  text-decoration: none;
-}
-a strong {
-  color: inherit;
-}
-/* `:focus` is linked to `:hover` for basic accessibility */
-a:hover,
-a:focus {
-  text-decoration: underline;
-}
-.post-date.a {
-	color: LightSlateGray;
-	font-size: inherit;
-}
+
 .post-title {
 	font-size: 1.5em;
     margin-top: 0.1em;
@@ -71,28 +56,6 @@ a:focus {
 }
 
 /* Headings */
-h1, h2, h3, h4, h5, h6 {
-	margin-bottom: .2em;
-    color: #313131;
-    text-rendering: optimizeLegibility;
-}
-h1 {
-  font-size: 1.5rem;
-  font-weight: 700;
-}
-h2 {
-  font-size: 1.3rem;
-  font-weight: 800;
-}
-h3 {
-  font-size: 1.1rem;
-  font-weight: 900;
-}
-h4, h5, h6 {
-  font-size: 1.0rem;
-  font-weight: 900;
-  font-style: italic;
-}
 
 /* Body text */
 p {
@@ -372,46 +335,4 @@ tbody tr:nth-child(odd) th {
  * there are no more previous or next posts to show.
  */
 
-.pagination {
-  overflow: hidden; /* clearfix */
-  margin-left: -1rem;
-  margin-right: -1rem;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  color: #ccc;
-  text-align: center;
-}
 
-/* Pagination items can be `span`s or `a`s */
-.pagination-item {
-  display: block;
-  padding: 1rem;
-  border: 1px solid #eee;
-}
-.pagination-item:first-child {
-  margin-bottom: -1px;
-}
-
-/* Only provide a hover state for linked pagination items */
-a.pagination-item:hover {
-  background-color: #f5f5f5;
-}
-
-@media (min-width: 30em) {
-  .pagination {
-    margin: 3rem 0;
-  }
-  .pagination-item {
-    float: left;
-    width: 50%;
-  }
-  .pagination-item:first-child {
-    margin-bottom: 0;
-    border-top-left-radius:    4px;
-    border-bottom-left-radius: 4px;
-  }
-  .pagination-item:last-child {
-    margin-left: -1px;
-    border-top-right-radius:    4px;
-    border-bottom-right-radius: 4px;
-  }
-}

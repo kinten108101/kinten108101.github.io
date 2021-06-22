@@ -4,12 +4,43 @@
  * Update the foundational and global aspects of the page.
  */
 
-/* Prevent scroll on narrow devices */
-html,
-body {
-  overflow-x: hidden;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
+::selection {
+  color: black;
+  
+  background-color:#abff32;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 3px;
+    
+  }
+  ::-webkit-scrollbar-thumb:hover,
+  ::-webkit-scrollbar-thumb:focus {
+    color:white;
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+  }
+  ::-webkit-scrollbar-thumb {
+    background-color: gray;
+    border-radius: 5px;
+  }
+/* Prevent scroll on narrow devices */
 
+html {
+  overflow-x: hidden;
+  text-align: left;
+  font-size: 15px;
+  font-family:'Ubuntu','Helvetica', monospace;
+  font-weight: normal;
+}
 /*
 Page navigations: the next and previous buttons at the end of each post.
 */
@@ -36,10 +67,27 @@ html {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-weight: 400;
+  margin-bottom: .2em;
+  font-family: 'Ubuntu', 'Helvetica', 'Arial', sans-serif;
   color: #313131;
-  letter-spacing: -.025rem;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+h2 {
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+h3 {
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+h4, h5, h6 {
+  font-size: 1.0rem;
+  font-weight: 900;
+  font-style: italic;
 }
 
 
@@ -127,7 +175,7 @@ h1, h2, h3, h4, h5, h6 {
 .container img, 
 .container .thumbnail {
   width:100%;
-  border-radius:1em;
+  border-radius:0.5em;
   
 }
 .container img {
@@ -144,12 +192,9 @@ h1, h2, h3, h4, h5, h6 {
 *     LINK HIGHLIGHT
 *
 */
-.container a {
-  color: #268bd2;
-  text-decoration: none;
-}
-.sidebar a {
-  color: #b8bcc0;
+p a, .sidebar-kinten a {
+  color: #1abcdc;
+  text-decoration:underline;
 }
 .container a strong {
   color: inherit;
@@ -158,13 +203,13 @@ h1, h2, h3, h4, h5, h6 {
 .container a:hover,
 .container a:focus {
   font-style: oblique;
-  color: wheat;
-  text-decoration: none;
+  color: #00d5ff;
+  font-weight:bold;
 }
 .container a:visited {	
-  color: #545454;
+  text-decoration:dashed;
+  
 }
-
 
 
 
@@ -183,6 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .sidebar-kinten {
   position:absolute;
+  margin-left:1em;
   width:var(--width-sidebar);
   height:50rem;
   border-radius:1em;
@@ -207,7 +253,7 @@ h1, h2, h3, h4, h5, h6 {
   overflow: overlay;
   display: block;
   padding-top: 1rem;
-                    padding-bottom: 1rem;
+                    padding-bottom: 5em;
                     margin-bottom: 0rem;
                     
                     
@@ -225,6 +271,10 @@ h1, h2, h3, h4, h5, h6 {
                     background-color: #ffffff;
                     border-radius: 1em 1em 0 0;
                     z-index: 0;
+}
+
+.container.home{
+    margin-top: 30rem;
 }
 
 
@@ -245,7 +295,10 @@ h1, h2, h3, h4, h5, h6 {
   .post {
     display:table-row;
   }
-  .sidebar-kinten {
+  .column-1 {
+
+  }
+  .column-2 {
     visibility:visible;
   }
   
@@ -256,7 +309,10 @@ h1, h2, h3, h4, h5, h6 {
     padding-left:2em;
     padding-right:2em;
   }
-  .sidebar-kinten {
+  .column-1 {
+    width: 100%;
+  }
+  .column-2 {
     visibility:hidden;
   }
 }
@@ -277,6 +333,10 @@ h1, h2, h3, h4, h5, h6 {
 *
 *
 */
+.archive {
+  font-family:monospace;
+  font-size: 0.8em;
+}
 .archive a{
   line-height:0.1em;
   font-weight:500;
@@ -376,14 +436,13 @@ h1, h2, h3, h4, h5, h6 {
  * there are no more previous or next posts to show.
  */
 
-.pagination {
-  overflow: overlay; /* clearfix */
+ .pagination {
+  overflow: hidden; /* clearfix */
   margin-left: -1rem;
   margin-right: -1rem;
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
   color: #ccc;
   text-align: center;
-  display:contents;
 }
 
 /* Pagination items can be `span`s or `a`s */
@@ -406,8 +465,8 @@ a.pagination-item:hover {
     margin: 3rem 0;
   }
   .pagination-item {
-    float: left;
-    width: 50%;
+    float: right;
+    width: 10%;
   }
   .pagination-item:first-child {
     margin-bottom: 0;

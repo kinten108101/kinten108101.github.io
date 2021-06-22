@@ -3,7 +3,7 @@ layout: page
 title: Home
 ---
 <div class="column-1">
-  <div class="home-title">Latest post:</div>
+  <!--<div class="home-title">Latest post:</div>-->
   <div class="posts">
     {% for post in paginator.posts %}
     {% include post-content-home.html %}
@@ -26,10 +26,12 @@ title: Home
     </span>
   </div>
 -->
+
+  <br>
+  <hr>
+  <br>
     {% endfor %}
-    <br>
-    <hr>
-    <br>
+    
   </div>
 
   <div class="pagination">
