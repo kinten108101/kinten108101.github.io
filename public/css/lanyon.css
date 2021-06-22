@@ -15,10 +15,9 @@ Page navigations: the next and previous buttons at the end of each post.
 */
 .PageNavigation {
   font-size: 14px;
-  display: block;
+  display: table-row;
   width: auto;
   overflow: hidden;
-  display:table-cell;
 }
 
 .PageNavigation a {
@@ -52,7 +51,7 @@ h1, h2, h3, h4, h5, h6 {
  */
 
 .wrap {
-  position: relative;
+  position: absolute;
   width: 100%;
   transition-property: width,background-size,transform;
   transition-duration: .3s;
@@ -186,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
   width:var(--width-sidebar);
   height:50rem;
   border-radius:1em;
-  display:table-cell;
+  display:table-row;
 }
 .sidebar p {
   color:antiquewhite;
@@ -243,7 +242,7 @@ h1, h2, h3, h4, h5, h6 {
 
   }
   .post {
-    display:table-cell;
+    display:table-row;
   }
   .sidebar-kinten {
     visibility:visible;
@@ -262,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .column-1, .column-2 {
-  display: table-row;
+  display: table-cell;
 }
 /*
 *     ARCHIVE
@@ -298,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* COMMENT SECTION */
 #disqus_recommendations, #disqus_thread {
-  display: table-cell;
+  display: table-row;
 }
 
 @media screen and (min-width: 48em){
