@@ -130,6 +130,28 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
+/*
+*   IMAGES
+*
+*
+*/
+.container img 
+.container .thumbnail {
+  width:100%;
+  border-radius:1em;
+  
+}
+.container img {
+  height:auto;
+}
+.container .thumbnail {
+  height: 300px;
+  object-fit:cover;
+}
+
+
+
 /*
  * Sidebar
  *
@@ -400,8 +422,9 @@ a.sidebar-nav-item:focus {
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-top: -.5rem;
-  margin-bottom: 1rem;
+  margin-top: 0.2rem;
+  margin-bottom: 0rem;
+  font-weight: 700;
   color: #9a9a9a;
 }
 
