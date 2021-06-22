@@ -100,17 +100,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                   max-height: 66.6vh;
                   overflow: auto;
                 }
-                .thumbnail {
-                    display: inline-block;
-                    position: absolute;
-                    width: 100%;
-                    height: auto;
-                    z-index: 1;
-                    box-shadow: 0x 0x 0.9rem 1px #000
-                }
-                .thumbnail-title {
-                    
-                }
                 .container {
                     padding-top: 1rem;
                     padding-bottom: 1rem;
