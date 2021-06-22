@@ -6,7 +6,39 @@ title: Home
   <div class="home-title">Latest post:</div>
   <div class="posts">
     {% for post in paginator.posts %}
-    {% include post-content-home.html %}
+    <div class="post">
+    
+      <div class="post-date">
+        {% if page.jekyll-theme-WuK.post.date.enable %}
+        {{ post.date | date: "%B %-d %Y"}}
+        {% endif %}
+        <!--
+        {% if page.jekyll-theme-WuK.background_music %}
+        {{ page.jekyll-theme-WuK.background_music }}
+        {% endif %}
+        -->
+      </div>
+      {% if page.jekyll-theme-WuK.post.tags.enable %}
+        {% if post.tags.size > 0 %}
+        {{ post.jekyll-theme-WuK.post.tags.prepend }}
+        {% for tag in page.tags %}
+        {% if tag != "nothing" %}
+        <span class="tagblock">{{ tag | upcase }}</span>
+        {% endif %}
+        {% endfor %}
+        &nbsp;
+        {% endif %}
+      {% endif %}
+      {% if post.title != "Something here"%}
+      <div class="post-title">{{post.title}}</div>
+      {% endif %}
+      <br>
+      
+       <img class="thumbnail" src="{{page.thumbnail}}" alt="image">
+      <br>
+      <br>
+      {{ content }}
+  </div>
     <!--
     <div class="post">
       <h1 class="post-title">
