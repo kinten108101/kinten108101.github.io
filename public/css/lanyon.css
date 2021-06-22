@@ -204,7 +204,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   overflow: overlay;
-  display: table;
+  display: block;
   padding-top: 1rem;
                     padding-bottom: 1rem;
                     margin-bottom: 0rem;
@@ -260,8 +260,16 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+
 .column-1, .column-2 {
   display: table-cell;
+}
+
+.column-1{
+  width:var(--width-post);
+}
+.column-2{
+  width:var(--width-sidebar);
 }
 /*
 *     ARCHIVE
