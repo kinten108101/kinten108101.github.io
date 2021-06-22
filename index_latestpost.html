@@ -1,0 +1,9 @@
+---
+layout: page
+title: Home
+---
+{%- assign latest_post = site.posts[0] -%}
+
+<script>
+    window.location.href = "{{ latest_post.url }}";
+</script>
