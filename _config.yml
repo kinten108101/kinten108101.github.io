@@ -528,16 +528,12 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 代码块过长自动折叠
 
         post:
-          author:
-            enable: true
-            prepend: By 
+          date:
+            enable: true;
           thumbnail:
-            enable: true
-          date: 
-            enable: true
-            prepend: posted on  
+            enable: true 
           tags: 
-            enable: true
+            enable: false
             prepend: 
           wordcount: 
             enable: true

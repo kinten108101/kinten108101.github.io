@@ -2,7 +2,7 @@
 layout: page
 title: Home
 ---
-
+<div class="home-title">Latest post:</div>
 <div class="posts">
   {% for post in paginator.posts %}
   <div class="post">
@@ -12,22 +12,25 @@ title: Home
       </a>
     </h1>
 	{% assign n = "0" %}
+  
 	{% capture n %}{{ post.excerpt | number_of_words }}{% endcapture %}
-	{% if n != "0" %}
-    {{ post.excerpt }}
-	{% else %}
-	{{ post.content }}
-	{% endif %}
+
 	<br>
+	{{ post.content }}
+	
+
+  <!--
     <span class="tagblock">
 	{{ post.date | date_to_string }} in
 	{% for tag in post.tags %}
 	{{ tag | upcase }}
 	{% endfor %}
 	</span>
-	
+	-->
+
   </div>
   {% endfor %}
+  <br>
 </div>
 
 <div class="pagination">
