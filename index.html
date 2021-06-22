@@ -11,12 +11,8 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-	{% assign n = "0" %}
-  
-	{% capture n %}{{ post.excerpt | number_of_words }}{% endcapture %}
-
-	<br>
-	{{ post.content }}
+    <img class="thumbnail" src="post.thumbnail">
+	  {{ post.content }}
 	
 
   <!--
@@ -27,11 +23,11 @@ title: Home
 	{% endfor %}
 	</span>
 	-->
-
   </div>
   {% endfor %}
   <br>
 </div>
+{% include sidebar-kinten.html%}
 
 <div class="pagination">
   {% if paginator.next_page %}
