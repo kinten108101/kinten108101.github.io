@@ -104,7 +104,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 0;
 }
 
-@media (max-width: 48em) {
+@media (max-width: 30em) {
   .masthead-title {
     text-align: center;
   }
@@ -228,7 +228,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-@media screen and (min-width: 48em){
+@media screen and (min-width: 30em){
   .container {
     padding-left:max(var(--min-left),var(--variable));
     padding-right:20vw;
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6 {
     visibility:visible;
     width:var(--width-post);
     margin-left: 2em;
-    margin-right: 3.5em;
+    margin-right: 2em;
     float: left;
     
 
@@ -251,7 +251,7 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 
-@media screen and (max-width: 48em){
+@media screen and (max-width: 30em){
   .container {
     padding-left:2em;
     padding-right:2em;
@@ -306,16 +306,18 @@ h1, h2, h3, h4, h5, h6 {
 
 /* COMMENT SECTION */
 #disqus_recommendations, #disqus_thread {
-  display: table-row;
+  display: block;
+  margin:auto;
+  text-align: center;
 }
 
-@media screen and (min-width: 48em){
+@media screen and (min-width: 30em){
   #disqus_recommendations, #disqus_thread {
     width:var(--width-post);
     
   }
 }
-@media screen and (max-width: 48em){
+@media screen and (max-width: 30em){
   #disqus_recommendations, #disqus_thread {
     width:auto;
   }
@@ -638,7 +640,7 @@ a.sidebar-nav-item:focus {
   border-color: transparent;
 }
 
-@media (min-width: 48em) {
+@media (min-width: 30em) {
   .sidebar-item {
     padding: 1.5rem;
   }
