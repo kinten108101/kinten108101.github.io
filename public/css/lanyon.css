@@ -136,7 +136,7 @@ h1, h2, h3, h4, h5, h6 {
 *
 *
 */
-.container img 
+.container img, 
 .container .thumbnail {
   width:100%;
   border-radius:1em;
@@ -146,10 +146,54 @@ h1, h2, h3, h4, h5, h6 {
   height:auto;
 }
 .container .thumbnail {
-  height: 300px;
+  height: 250px;
   object-fit:cover;
 }
 
+/*
+*     ARCHIVE
+*
+*
+*/
+.archive a{
+  line-height:0.1em;
+  font-weight:500;
+}
+.archive .fa-layers{
+  font-size: 32px;
+}
+.effect-info .svg-inline--fa{
+  font-size:32px;
+
+}
+
+
+
+/*
+*
+*     LINK HIGHLIGHT
+*
+*/
+.container a {
+  color: #268bd2;
+  text-decoration: none;
+}
+.sidebar a {
+  color: #b8bcc0;
+}
+.container a strong {
+  color: inherit;
+}
+
+.container a:hover,
+.container a:focus {
+  font-style: oblique;
+  color: wheat;
+  text-decoration: none;
+}
+.container a:visited {	
+  color: #545454;
+}
 
 
 /*
@@ -345,7 +389,7 @@ a.sidebar-nav-item:focus {
  :root {
   --min-left: 2em;
   --right: 30vw;
-  --width-post: 30em;
+  --width-post: 32em;
   --width-sidebar: 23em;
   --variable: calc(100vw - var(--right) - var(--width-sidebar) - var(--width-post));
 }
@@ -371,6 +415,12 @@ a.sidebar-nav-item:focus {
   background: #55ACEE;
   color: white;
 }
+
+/*
+*           SIDEBAR - BY KINTEN108101
+*   
+*/
+
 .sidebar-kinten {
   position:absolute;
   width:var(--width-sidebar);
@@ -381,7 +431,13 @@ a.sidebar-nav-item:focus {
 .sidebar p {
   color:antiquewhite;
 }
+.sidebar-kinten .svg-inline--fa {
+  font-size: 32px;
+}
 
+.sidebar-kinten h3 {
+  text-transform:uppercase;
+}
 
 
 @media screen and (min-width: 48em){
@@ -404,8 +460,24 @@ a.sidebar-nav-item:focus {
 }
 
 @media screen and (max-width: 48em){
+  .container {
+    padding-left:2em;
+    padding-right:2em;
+  }
   .sidebar-kinten {
     visibility:hidden;
+  }
+}
+
+/* COMMENT SECTION */
+@media screen and (min-width: 48em){
+  #disqus_recommendations, #disqus_thread {
+    width:var(--width-post);
+  }
+}
+@media screen and (max-width: 48em){
+  #disqus_recommendations, #disqus_thread {
+    width:auto;
   }
 }
 /* Blog post or page title */

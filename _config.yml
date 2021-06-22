@@ -1,7 +1,7 @@
 title: urora # 站点标题 
 tagline: A blogging site of Kinten, nothing unusual.
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  from the web jaeger who wrote sci-fis ..<br/>
+  <p>Howdy, I am Le Ng. Gia Bao, also known as Kinten. Software enginner/ essayist/ anime fan. </p>
   <a href="https://twitter.com/kinten108101">
     <i class="fab fa-twitter"></i>
   </a>
@@ -14,7 +14,9 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
   <a href="https://luyenanhchuyen.wordpress.com">
     <i class="fa fa-book"></i>
   </a>
-  <a href="/admin"><i class="fas fa-key"></i></a><br/>
+  <a href="/admin">
+    <i class="fas fa-key"></i>
+  </a>
 url: https://urora.netlify.app
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 paginate: 5
@@ -139,26 +141,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                     box-shadow: 0px 5px 0.9rem 0.1px #000;
                     background-color: rgba(0,0,0, 0.5)
                 }
-                a {
-                    color: #268bd2;
-                    text-decoration: none;
-                }
-                .sidebar a {
-                    color: #b8bcc0;
-                }
-                a strong {
-                    color: inherit;
-                }
-
-                a:hover,
-                a:focus {
-                    font-style: oblique;
-                    color: wheat;
-                    text-decoration: none;
-                }
-                a:visited {	
-                    color: #545454;
-                }
+                
                 .sidebar details {
                     margin-left: 1rem;
                 }
@@ -275,7 +258,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 }
               </style>
           sidebar: # 此配置项下是一些关于侧边栏的配置
-            disable: false # 是否不显示sidebar
+            disable: true # 是否不显示sidebar
             avatar: # 侧边栏显示的头像
               enable: true
               img: https://secure.gravatar.com/avatar/ba8091614d091da651a3d6ed848b29cf?s=512 # 头像的地址
