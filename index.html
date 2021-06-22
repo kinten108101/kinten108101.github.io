@@ -6,6 +6,8 @@ title: Home
   <div class="home-title">Latest post:</div>
   <div class="posts">
     {% for post in paginator.posts %}
+    {% include post-content-home.html %}
+    <!--
     <div class="post">
       <h1 class="post-title">
         <a href="{{ post.url | absolute_url }}">
@@ -16,16 +18,17 @@ title: Home
       {{ post.content }}
     
 
-    <!--
       <span class="tagblock">
     {{ post.date | date_to_string }} in
     {% for tag in post.tags %}
     {{ tag | upcase }}
     {% endfor %}
     </span>
-    -->
-    </div>
+  </div>
+-->
     {% endfor %}
+    <br>
+    <hr>
     <br>
   </div>
 
