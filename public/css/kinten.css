@@ -22,12 +22,13 @@
 
 }
 .home-title {
- font-family:'Banjin',monospace;
- margin-left:-1em;
- margin-top:1em;
+  font-family:'Banjin',monospace;
+  font-size: 2.6em;
+  color:black;
   display: inline-block;
   float:left;
-  font-size: 3em;
+  margin-left:-1em;
+  margin-top:1.2em;
   vertical-align: top;
   transform: rotate(270deg);
   overflow:hide;
@@ -396,7 +397,7 @@
   .container {
     overflow: overlay;
     display: block;
-    padding-top: 5em;
+    padding-top: 3em;
                       padding-bottom: 5em;
                       margin-bottom: 0rem;
                       
