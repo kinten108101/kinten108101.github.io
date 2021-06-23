@@ -423,11 +423,11 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
 
         post:
           comment:
-            enable: true;
+            enable: true
           page-navigation:
-            enable: false;
+            enable: false
           date:
-            enable: true;
+            enable: true
           thumbnail:
             enable: true 
           tags: 
