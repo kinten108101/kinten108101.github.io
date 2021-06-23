@@ -4,21 +4,38 @@
  * 
  */
 
+ /**/
+ @font-face {
+  font-family: 'Banjin';
+  src: url("font/BanjinCondensed-rggG8.ttf");
+}
+
  .content-image {
    position:relative;
-   width:50%;
    display:inline;
    height: auto;
    max-height: 300px;
    object-fit: cover;
+   top: 0.5em;
+   border-radius: 5px;
  }
 
  .left {
   float:left;
+  margin-right:1em;
  }
+ .middle {
+   float:none;
+   margin-left:auto;
+   margin-right:auto;
+ }
+
  .right {
    float:right;
+   margin-left:1em;
  }
+
+
 
  .ending {
   color:gray;
@@ -32,7 +49,7 @@
 .home-logo {
  position:relative;
  
- width: 10em;
+ width: 13em;
  
  display: inline-block;
  float:left;
@@ -40,12 +57,13 @@
 }
 .home-title {
   font-family:'Banjin',monospace;
-  font-size: 2.6em;
-  color:black;
+  font-size: 2.2em;
+  font-style:normal;
+  font-weight:900;
   display: inline-block;
   float:left;
-  margin-left:-1em;
-  margin-top:1.2em;
+  margin-left:-2em;
+  margin-top:2.2em;
   vertical-align: top;
   transform: rotate(270deg);
   overflow:hide;
@@ -414,7 +432,7 @@
   .container {
     overflow: overlay;
     display: block;
-    padding-top: 3em;
+    padding-top: 1em;
                       padding-bottom: 5em;
                       margin-bottom: 0rem;
                       
