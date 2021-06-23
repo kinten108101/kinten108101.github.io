@@ -422,6 +422,10 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
             - | # 代码块过长自动折叠
 
         post:
+          comment:
+            enable: true;
+          page-navigation:
+            enable: false;
           date:
             enable: true;
           thumbnail:
