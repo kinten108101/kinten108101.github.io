@@ -3,48 +3,53 @@
  *    Low-level miscellaneous features
  * 
  */
- @media screen and (min-width:38em){
-  .header {
-     position: relative;
-     width: var(--width-post);
-     margin-left:2em;
-     overflow:auto;
-  }
-  .home-logo {
-    margin-left:30%;
-  }
+ .ending {
+  color:gray;
+  font-family: 'Helvetica';
+  text-align:center;
+}
+@media screen and (min-width:38em){
+ .header {
+    position: relative;
+    width: var(--width-post);
+    margin-left:2em;
+    overflow:auto;
+ }
+ .home-logo {
+   margin-left:30%;
+ }
 }
 @media screen and (max-width:38em){
-  .header {
-     position: relative;
-     width: 100%;
-     margin-left:0em;
-     overflow:auto;
-  }
-  .home-logo{
-   margin-left:25%;
-  }
+ .header {
+    position: relative;
+    width: 100%;
+    margin-left:0em;
+    overflow:auto;
+ }
+ .home-logo{
+  margin-left:25%;
+ }
 }
 .home-logo {
-  position:relative;
-  
-  width: 10em;
-  
-  display: inline-block;
-  float:left;
+ position:relative;
+ 
+ width: 10em;
+ 
+ display: inline-block;
+ float:left;
 
 
 }
 
 .home-title {
-  font-family:'Banjin',monospace;
-  margin-left:-1em;
-  margin-top:1em;
-   display: inline-block;
-   float:left;
-   font-size: 3em;
-   vertical-align: top;
-   transform: rotate(270deg);
+ font-family:'Banjin',monospace;
+ margin-left:-1em;
+ margin-top:1em;
+  display: inline-block;
+  float:left;
+  font-size: 3em;
+  vertical-align: top;
+  transform: rotate(270deg);
 }
 
  @keyframes fadeIn {
