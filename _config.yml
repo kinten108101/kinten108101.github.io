@@ -20,6 +20,7 @@ description: | # 头像背后的信息（html格式），<br/>代表换行
 url: https://urora.netlify.app
 baseurl: "" # 假如你的博客是建在某个目录下的，请在这里加上目录名，并且下面配置的所有链接里的`/assets`前也要加，即`/your_baseurl/assets`。这一项结尾不要有'/'。
 paginate: 5
+background: https://thumbs.gfycat.com/CluelessDelayedBobcat-size_restricted.gif
 
 defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/front-matter-defaults/>功能进行配置
   - scope:
@@ -130,8 +131,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
             enable: false
           year_count: true
-          toc: # 在正文里显示一个归档的目录
-            enable: false
         merger: # 打赏页，需要配置！
           append_to_head:
             - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
@@ -259,27 +258,15 @@ plugins: # <https://jekyllrb.com/docs/plugins/>
   - jemoji
   - jekyll-feed
   - jekyll-readme-index # 使用readme做index，从而和github渲染效果一致
-  - jekyll-index_pages
   - jekyll-paginate
   - jekyll-default-layout # 为每个markdown自动生成layout
   - jekyll-seo-tag # 为每个页面生成标题
   - jekyll-sitemap # 为站点生成站点地图
   - jekyll-feed # 为站点生成RSS源
-  - jekyll-remote-theme # 使用remote_theme插件实现主题的前后分离，详见<https://github.com/benbalter/jekyll-remote-theme/>
-
-remote_theme: https://github.com/kinten108101/jekyll-theme-WuK #使用固定版本号以防止主题更新导致站点显示错乱
 
 readme_index: # 缺失index.md和index.html时，使用README.md代替之
   enabled: false
   with_frontmatter: true # 支持带有yaml头的README
-  
-index_pages:
-  posts:
-    title: Post Listing Page Title
-    excerpt: Post listing page excerpt
-    per_page: 20
-    permalink: /
-    layout: default
 
 webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
   google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
