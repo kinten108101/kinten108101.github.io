@@ -22,7 +22,7 @@ Yet, even with the most compatible tech, developing in VR, let alone any applica
 
 Realizing this, I may as well revive past projects, which is exactly what I will do. In the past months I've been dabbling in Unity, a game engine also for VR development, during which most ventures have not come into fruition: they are, in the end, test builds. Granted, the word *dabbling* is quite an understatement, given I have used the engine for two years now, not to mention that one time when I made a half-baked VR demo in a school convention. It is oftentimes my inability to bring myself to work carefully, however, that has led to past failures. Not to mention was my diluted focus as I struggled to find the best fits for my long-term career... Surely it is high time that I brought myself to discipline and worked it out. If this will not be urgent enough, a month later I am also going to busy myself prepping for university anyway. That would be more annoying.
 
-{% include pagenavigation.html %}
+{% include image-inline.html type="left" src="https://miro.medium.com/max/5112/1*vnw1M6yUzORo42-EOMhYRQ.png" alt="Unity for VR development." %}
 
 The path that I'll undertake will not be smooth sailing. My rough-hewn cardboard *Cardboard* headset is by no means unusable, but I'll surely miss such basic functions as long-pressing as an essential VR interaction. I'll have to upgrade it, but even that is followed by certain personal requirements that I must meet.
 
