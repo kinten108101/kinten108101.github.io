@@ -1,20 +1,17 @@
 ---
 layout: post
-title: The Linux Experience 1
+title: The Linux Experience, Tập 1.
 author:
   - Kinten
 date: 18/06/2021
-thumbnail: /assets/image/titleimage.png
+thumbnail: /assets/image/thriftyfoolishindianrhinoceros-size_restricted.gif
 tags: Log Linux Ubuntu
-excerpt: Windows 10 has always been there for me for over 5 years and there is
-  no way a sound justification or objective reason behind abandoning it. Where
-  logic fails, my heart tells that sooner or later the switch will happen, so
-  there would be no point in delaying it anyway, not to mention the crazy time
-  that is summer is coming to its climactic point (usually it is the time when I
-  do my hobbies).
+excerpt: "During my time developing the EBC prototype, I came to the conclusion
+  that Linux should become my next operating system. While few could deny the
+  hardship that this will imply, given the OS's reputation derived much from its
+  incompatibility, eventually I set my mind on greenlighting the idea anyway for
+  one and one sole reason only: change."
 ---
-During my time developing the EBC prototype, I came to the conclusion that Linux should become my next operating system. While few could deny the hardship that this will imply, given the OS's reputation derived much from its incompatibility, eventually I set my mind on greenlighting the idea anyway for one and one sole reason only: change.
-
 Windows 10 has always been there for me for over 5 years and there is no way a sound justification or objective reason behind abandoning it. Where logic fails, my heart tells that sooner or later the switch will happen, so there would be no point in delaying it anyway, not to mention the crazy time that is summer is coming to its climactic point (usually it is the time when I do my hobbies). 
 
 It is definite that the loss of conveniences brought to me by Microsoft will be felt, and that procrastination from perusing the novel system is inevitable and will be rampant, putting more strain onto an already tight prepping schedule; yet, even after that one time canceling the installation at the last moment, the following day my instinct took hold of me, and along the ride, I came. 
