@@ -3,6 +3,23 @@
  *    Low-level miscellaneous features
  * 
  */
+
+ .content-image {
+   position:relative;
+   width:50%;
+   display:inline;
+   height: auto;
+   max-height: 300px;
+   object-fit: cover;
+ }
+
+ .left {
+  float:left;
+ }
+ .right {
+   float:right;
+ }
+
  .ending {
   color:gray;
   font-family: 'Helvetica';
@@ -319,6 +336,7 @@
     margin: 0 0 1rem;
     
   }
+
   
   /* Tables */
   table {
