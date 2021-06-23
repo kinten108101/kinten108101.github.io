@@ -1,10 +1,10 @@
 ---
 layout: post
-title: The Linux Experience 1
+title: The Linux Experience, Tập 1.
 author:
   - Kinten
 date: 18/06/2021
-thumbnail: /assets/image/titleimage.png
+thumbnail: /assets/image/thriftyfoolishindianrhinoceros-size_restricted.gif
 tags: Log Linux Ubuntu
 excerpt: Windows 10 has always been there for me for over 5 years and there is
   no way a sound justification or objective reason behind abandoning it. Where
