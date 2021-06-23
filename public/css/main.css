@@ -1,15 +1,4 @@
-@font-face {
-    font-family: 'Banjin3DItalic';
-    src: url("/assets/font/Banjin3DItalic-1GG4j.ttf");
-  }
-@font-face {
-    font-family: 'Banjin3D';
-    src: url("/assets/font/Banjin3D-nRRGR.ttf");
-}
-@font-face {
-    font-family: 'Banjin';
-    src: url("/assets/font/BanjinCondensed-rggG8.ttf");
-}
+
 @import url("kinten.css");
 @import url("lanyon.css");
 @import url("syntax.css");
