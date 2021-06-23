@@ -1,0 +1,571 @@
+/*
+ * 
+ *    Low-level miscellaneous features
+ * 
+ */
+
+ @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  ::selection {
+    color: black;
+    
+    background-color:#abff32;
+    }
+    ::-webkit-scrollbar {
+      width: 8px;
+      height: 3px;
+      
+    }
+    ::-webkit-scrollbar-thumb:hover,
+    ::-webkit-scrollbar-thumb:focus {
+      color:white;
+      transform: scale(1.2);
+      transition-duration: 0.2s;
+    }
+    ::-webkit-scrollbar-thumb {
+      background-color: gray;
+      border-radius: 5px;
+    }
+  
+  /* 
+  *     Texts
+  */
+  
+  html {
+    overflow-x: hidden;
+    text-align: left;
+    font-size: 15px;
+    font-family:'Ubuntu','Helvetica', monospace;
+    font-weight: normal;
+  }
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  p.excerpt {
+    font-size: 17px;
+    font-style: italic;
+    color: #505050;
+    letter-spacing: 0.01rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /*The post title*/
+  
+  .post-title {
+      font-size: 1.5em;
+      margin-top: 0.1em;
+      margin-bottom: 2.5em;
+      font-weight: 700;
+      display: inline;
+      word-break: break-word;
+      line-height: 1em;
+  }
+  
+  .post-title,
+  .post-title a {
+    color: #303030;
+    text-decoration:none;
+  }
+  .post-title a:hover,
+  .post-title a:focus {
+    color: #525252;
+    text-decoration:underline;
+  }
+  /*This post title is not the same, exclusive to the case where a envelopes. Also, originally, using ~ was horrible. Opting for nth-child is by no means any better, but screw it I'll look into this once tags in enabled. */
+  .post a:nth-child(2){
+    text-decoration:none;
+  }
+  .post a:nth-child(2):hover,
+  .post a:nth-child(2):focus{
+    color:#676565;
+    text-decoration:none;
+  }
+  .post a:nth-child(3):hover,
+  .post a:nth-child(3):focus{
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+  }
+  
+  
+  .post-date {
+    display: block;
+    margin-top: 0.2rem;
+    margin-bottom: 0rem;
+    font-weight: 700;
+    color: #9a9a9a;
+    text-transform: uppercase;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: .2em;
+    font-family: 'Ubuntu', 'Helvetica', 'Arial', sans-serif;
+    color: #313131;
+    text-rendering: optimizeLegibility;
+  }
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+  h2 {
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 900;
+  }
+  h4, h5, h6 {
+    font-size: 1.0rem;
+    font-weight: 900;
+    font-style: italic;
+  }
+  
+  /**   IMAGES */
+  .container img, 
+  .container .thumbnail {
+    width:100%;
+    border-radius:0.5em;
+    
+  }
+  .container img {
+    height:auto;
+  }
+  .container .thumbnail {
+    margin-top: 1em;
+    height: 250px;
+    object-fit:cover;
+  }
+  
+  strong {
+    color: #303030;
+  }
+  
+  
+  /* Lists */
+  ul, ol, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+  dt {
+    font-weight: bold;
+  }
+  dd {
+    margin-bottom: .5rem;
+  }
+  
+  /* Misc */
+  hr {
+    position: relative;
+    margin: 1.5rem 0;
+    border: 0;
+    border-top: 1px solid #f3f3f3;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  abbr {
+    font-size: 85%;
+    font-weight: bold;
+    color: #555;
+    text-transform: uppercase;
+  }
+  abbr[title] {
+    cursor: help;
+    border-bottom: 1px dotted #e5e5e5;
+  }
+  
+  /* Code */
+  code,
+  pre {
+    font-family: Menlo, Monaco, "Courier New", monospace;
+  }
+  code {
+    padding: .25em .5em;
+    font-size: 85%;
+    color: #bf616a;
+    background-color: #f9f9f9;
+    border-radius: 3px;
+  }
+  pre {
+    display: block;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: .8rem;
+    line-height: 1.4;
+    white-space: pre;
+    white-space: pre-wrap;
+    word-break: break-all;
+    word-wrap: break-word;
+    background-color: #f9f9f9;
+  }
+  pre code {
+    padding: 0;
+    font-size: 100%;
+    color: inherit;
+    background-color: transparent;
+  }
+  
+  /* Pygments via Jekyll */
+  .highlight {
+    margin-bottom: 1rem;
+    border-radius: 4px;
+  }
+  .highlight pre {
+    margin-bottom: 0;
+  }
+  
+  /* Gist via GitHub Pages */
+  .gist .gist-file {
+    font-family: Menlo, Monaco, "Courier New", monospace !important;
+  }
+  .gist .markdown-body {
+    padding: 15px;
+  }
+  .gist pre {
+    padding: 0;
+    background-color: transparent;
+  }
+  .gist .gist-file .gist-data {
+    font-size: .8rem !important;
+    line-height: 1.4;
+  }
+  .gist code {
+    padding: 0;
+    color: inherit;
+    background-color: transparent;
+    border-radius: 0;
+  }
+  
+  /* Quotes */
+  blockquote {
+    padding: .5rem 1rem;
+    margin: .8rem 0;
+    color: #7a7a7a;
+    border-left: .25rem solid #e5e5e5;
+  }
+  blockquote p:last-child {
+    margin-bottom: 0;
+  }
+  @media (min-width: 30em) {
+    blockquote {
+      padding-left: 1.25rem;
+    }
+  }
+  
+  img {
+    display: block;
+    max-width: 100%;
+    margin: 0 0 1rem;
+    
+  }
+  
+  /* Tables */
+  table {
+    margin-bottom: 1rem;
+    width: 100%;
+    border: 1px solid #e5e5e5;
+    border-collapse: collapse;
+  }
+  td,
+  th {
+    padding: .25rem .5rem;
+    border: 1px solid #e5e5e5;
+  }
+  tbody tr:nth-child(odd) td,
+  tbody tr:nth-child(odd) th {
+    background-color: #f9f9f9;
+  }
+  
+  
+  
+  
+  /*  Page navigations: the next and previous buttons at the end of each post.  */
+  .PageNavigation {
+    font-size: 14px;
+    display: table-row;
+    width: auto;
+    overflow: hidden;
+    float:left;
+  }
+  
+  .PageNavigation a {
+    display: block;
+    width: 50%;
+    float: left;
+    margin: 1em 0;
+  }
+  
+  .PageNavigation .next {
+    text-align: right;
+  }
+  
+  
+  /*
+   * The larger containers - wrapper, container, column, post,...
+   *
+   */
+   :root {
+    --min-left: 2em;
+    --right: 32vw;
+    --width-post: 32em;
+    --width-sidebar: 17em;
+    --variable: calc(100vw - var(--right) - var(--width-sidebar) - var(--width-post));
+  }
+  .wrap {
+    position: absolute;
+    width: 100%;
+    transition-property: width,background-size,transform;
+    transition-duration: .3s;
+    transition-timing-function: ease-in-out;
+    min-height: 100%;
+    /*display: inline-block;*/
+    background-color: rgb(0,0,0);
+    background-size: 100vw auto;
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-attachment: fixed;                  
+    padding-bottom: 0px;
+    z-index: 1;
+  }
+  
+  .home-title {
+  
+  }
+  
+  
+  .container {
+    overflow: overlay;
+    display: block;
+    padding-top: 5em;
+                      padding-bottom: 5em;
+                      margin-bottom: 0rem;
+                      
+                      
+                      color: #333;
+                      line-height: 1.42857143;
+                      font-weight: 400;
+                      font-size: 16px;
+                      animation-duration: 2s;
+                      animation-name: fadeIn;
+  
+                      max-width: 100%;
+                      margin-top: 10rem;
+                      margin-left: 0;
+                      margin-right: 0;
+                      background-color: #ffffff;
+                      border-radius: 1em 1em 0 0;
+                      z-index: 0;
+                      box-shadow: 0 0 100px 5px;
+                      will-change:transform;
+  }
+  
+  .container.home{
+      margin-top: 30rem;
+  }
+  .posts {
+    overflow:auto;
+  }
+  
+  .post {
+    visibility:visible;
+    display:table-row;
+    float: left;
+    margin-bottom: 5em;
+  }
+  @media screen and (min-width: 30em){
+    .container {
+      padding-left:max(var(--min-left),var(--variable));
+      padding-right:20vw;
+    }
+    .column-1 {
+      width:var(--width-post);
+    }
+    .column-2 {
+      visibility:visible;
+      width:var(--width-sidebar);
+    }
+    .post {
+      width:var(--width-post);
+      margin-left: 2em;
+      margin-right: 2em;
+    }
+  }
+  
+  @media screen and (max-width: 30em){
+    
+    .container {
+      padding-left:2em;
+      padding-right:2em;
+    }
+    .column-1 {
+      width: 100%;
+    }
+    .column-2 {
+      visibility:hidden;
+    }
+    .post{
+      width:100%;
+      margin-left:0;
+      margin-right:0;
+    }
+  }
+  
+  
+  .column-1, .column-2 {
+    display: table-cell;
+  }
+  
+  
+  .column-2{
+    
+  }
+  /* COMMENT SECTION */
+  #disqus_recommendations, #disqus_thread {
+    display: block;
+    margin:auto;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 30em){
+    #disqus_recommendations, #disqus_thread {
+      width:var(--width-post);
+      
+    }
+  }
+  @media screen and (max-width: 30em){
+    #disqus_recommendations, #disqus_thread {
+      width:auto;
+    }
+  }
+  /* Sidebar (new_) */
+  
+  .sidebar-kinten {
+    position:absolute;
+    margin-left:1em;
+    width:var(--width-sidebar);
+    height:50rem;
+    border-radius:1em;
+    display:table-row;
+  }
+  .sidebar-kinten .svg-inline--fa {
+    font-size: 48px;
+    /*don't mind this calculation*/
+    --space:calc(var(--width-sidebar) / 81);
+    margin-right: var(--space);
+    margin-left: var(--space);
+  }
+  
+  .sidebar-kinten h3 {
+    text-transform:uppercase;
+  }
+  
+  /*     ARCHIVE  */
+  .archive {
+    font-family:monospace;
+    font-size: 0.8em;
+  }
+  .archive a{
+    line-height:0.1em;
+    font-weight:500;
+  }
+  .archive .fa-layers{
+    font-size: 32px;
+  }
+  
+  .svg-inline--fa:hover,
+  .svg-inline--fa:focus {
+    transform: scale(1.2);
+    transition-duration: 0.2s;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  /*
+  *
+  *     LINK HIGHLIGHT
+  *
+  */
+  p a, .sidebar-kinten a {
+    color: #1abcdc;
+    text-decoration:underline;
+  }
+  
+  .container a strong {
+    color: inherit;
+  }
+  
+  .container a:hover,
+  .container a:focus {
+    font-style: oblique;
+    color: #00d5ff;
+    /*transform: scale(1.2);
+    transition-duration: 0.2s;*/
+  }
+  .container a:visited {	
+    text-decoration:dashed;
+    
+  }
+  
+  /*
+   * Pagination
+   */
+  
+   .pagination {
+    overflow: hidden; /* clearfix */
+    margin-left: -1rem;
+    margin-right: -1rem;
+    font-family: "PT Sans", Helvetica, Arial, sans-serif;
+    color: #ccc;
+    text-align: center;
+  }
+  
+  /* Pagination items can be `span`s or `a`s */
+  .pagination-item {
+    display: block;
+    padding: 1rem;
+    border: 1px solid #eee;
+  }
+  .pagination-item:first-child {
+    margin-bottom: -1px;
+  }
+  
+  /* Only provide a hover state for linked pagination items */
+  a.pagination-item:hover {
+    background-color: #f5f5f5;
+  }
+  
+  @media (min-width: 30em) {
+    .pagination {
+      margin: 3rem 0;
+    }
+    .pagination-item {
+      float: right;
+      width: 10%;
+    }
+    .pagination-item:first-child {
+      margin-bottom: 0;
+      border-top-left-radius:    4px;
+      border-bottom-left-radius: 4px;
+    }
+    .pagination-item:last-child {
+      margin-left: -1px;
+      border-top-right-radius:    4px;
+      border-bottom-right-radius: 4px;
+    }
+  }
+  
+  
