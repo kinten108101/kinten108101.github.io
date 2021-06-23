@@ -1,7 +1,7 @@
 title: urora # 站点标题 
 tagline: A blogging site of Kinten, nothing unusual.
 description: | # 头像背后的信息（html格式），<br/>代表换行
-  <p>Howdy, I am Le Ng. Gia Bao, also known as Kinten. URORA is my personal blogging site  Software enginner/ essayist/ anime fan. </p>
+  <p>Chào! This is URORA, a personal blogging site of Le Ng. Gia Bao, known also as Kinten. URORA is home to all things graphics, algorithms, VR, and AI. Special releases include off-topic essays: politics, literature, manga, and me surveying the world!</p>
   <a href="https://twitter.com/kinten108101">
     <i class="fab fa-twitter"></i>
   </a>
@@ -29,9 +29,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
       jekyll-theme-WuK: # 我的主题的自定义样式都在这个命名空间
         default:
           body:
-            theme-base: theme-base-07 # 可选的主题色包括08~0f，见 <https://github.com/poole/lanyon>
-            layout-reverse: false # 开启后sidebar在右边，反之左边
-            sidebar-overlay: true # 开启后正文不随sidebar移动而移动
           append_to_head: # 通过内嵌html的方式引入并定制插件，删改前确定知道自己在做什么。定制插件的方式可以参考这篇文章 <https://wu-kan.cn/_posts/2019-01-18-基于Jekyll搭建个人博客/>
             - | #一些页面优化标签，看不懂可跳过
               <meta
@@ -83,18 +80,6 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
                 async="async"
               ></script>
         page:
-          katex: # katex 数学公式插件
-            enable: true
-            append: |
-              <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
-              />
-              <script
-                src="https://cdn.jsdelivr.net/combine/npm/katex@0.11.1/dist/katex.min.js,npm/katex@0.11.1/dist/contrib/mathtex-script-type.min.js,npm/katex@0.11.1/dist/contrib/auto-render.min.js"
-                async="async"
-                onload='renderMathInElement(document.body, { delimiters: [{ left: "$", right: "$", display: false }] })'
-              ></script>
         post:
           comment:
             enable: true
@@ -105,21 +90,8 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           thumbnail:
             enable: true 
           tags: 
-            enable: false
+            enable: false #Tags will be reintroducted later as there are more plans for this blog.
             prepend: 
-          wordcount: 
-            enable: true
-            prepend: <i class="fas fa-file-word fa-fw"></i>
-            unit: " words"
-          readtime: 
-            enable: false
-            prepend: <i class="fas fa-clock fa-fw"></i>
-            unit: Minutes
-            divided_by: 300 
-          visitor: 
-            enable: true
-            prepend: <i class="fas fa-book-reader fa-fw"></i>
-            unit: Views
           copyright:
             A weblog of Le Nguyen Gia Bao.<br>Powered by <a href="https://jekyllrb.com">Jekyll</a>. Forked and heavily modified from <a href="https://github.com/wu-kan/jekyll-theme-WuK">jekyll-theme-WuK</a>.
         tags:
@@ -128,49 +100,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
           posts_count:
             enable: false # 博文数量统计
             append: 
-          pie_chart: # 显示一个标签的饼状统计图，需要引入 mermaid
-            enable: false
           year_count: true
-        merger: # 打赏页，需要配置！
-          append_to_head:
-            - | # 需要配置的变量见<https://merger.justhx.com/cn/docs/configure>
-              <script>
-                var usage = "payment";
-                var wechat = "wxp://f2f0BhUoIC_9gex7-tC2PRvVuoA486mK5WyC";
-                var tenpay = "https://i.qianbao.qq.com/wallet/sqrcode.htm?m=tenpay&f=wallet&a=1&ac=CAEQ77zFwQMY-6u57gU%3D_xxx_sign&u=942759535&n=%E8%94%9A";
-                var alipay = "https://qr.alipay.com/fkx02750b5kbplxvudqrx16";
-                var paypal = "https://paypal.me/wukan0621";
-                var myname = "WuK";
-                var profile = "https://gravatar.loli.net/avatar/289efba375d63424de3c49569c446744?s=320";
-                var multilingual = true;
-                var myname_hans = "吴坎";
-                var myname_hant = "吴坎";
-                var myname_eng = "WuK";
-                var title = "选择你的支付方式";
-                var subtitle = "跟随进一步的指示以向" + myname + "付款";
-                var qrcodeapi = "https://www.zhihu.com/qrcode?url=";
-              </script>
-            - |
-              <meta
-                charset="utf-8"
-              />
-              <meta
-                name="viewport"
-                content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
-              />
-              <meta
-                http-equiv="Content-Security-Policy"
-                content="upgrade-insecure-requests"
-              />
-            - | # merger的页面样式
-              <link
-                rel="stylesheet"
-                href="https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/styles/spectre.css/spectre-modified.min.css,gh/hifocus/merger@0.21.1/assets/styles/style.min.css"
-              />
-              <script
-                src='https://cdn.jsdelivr.net/combine/gh/hifocus/merger@0.21.1/assets/js/jQuery/jquery.min.js,gh/hifocus/merger@0.21.1/assets/js/jquery-qrcode/jquery-qrcode.min.js,gh/hifocus/merger@0.21.1/assets/js/JavaScript_MD5/md5.min.js,gh/hifocus/merger@0.21.1/assets/js/function.min.js,gh/hifocus/merger@0.21.1/assets/js/font_974919_xgtacm93vxp.min.js'
-                defer='defer'
-              ></script>
         home: # 展示页的配置可跳过，详见<https://revealjs.com/>
           append_to_section_tag:
             - key: data-markdown
@@ -257,16 +187,11 @@ compress_html: # <https://github.com/penibelst/jekyll-compress-html>
 plugins: # <https://jekyllrb.com/docs/plugins/>
   - jemoji
   - jekyll-feed
-  - jekyll-readme-index # 使用readme做index，从而和github渲染效果一致
   - jekyll-paginate
   - jekyll-default-layout # 为每个markdown自动生成layout
   - jekyll-seo-tag # 为每个页面生成标题
   - jekyll-sitemap # 为站点生成站点地图
   - jekyll-feed # 为站点生成RSS源
-
-readme_index: # 缺失index.md和index.html时，使用README.md代替之
-  enabled: false
-  with_frontmatter: true # 支持带有yaml头的README
 
 webmaster_verifications: # <https://jekyll.github.io/jekyll-seo-tag/usage/>
   google: YIKi1rBnyUaS-DMYiluseI5kZzTwjCkTFmKkSkMZDJk
@@ -288,14 +213,3 @@ kramdown: # 见<https://kramdown.gettalong.org/options.html>
       line_numbers: false #渲染出来的效果好鬼畜
     span:
       disable: true
-# 以下为 githubpage上不可修改的参数，见<https://help.github.com/en/github/working-with-github-pages/about-github-pages-and-jekyll>
-#lsi: false # 为相关文章生成索引
-#safe: true # 禁用自定义插件
-#source: [your repo's top level directory] # Jekyll 读取文件的路径
-#incremental: false # 增量生成
-#highlighter: rouge # 代码高亮器
-#gist:
-#  noscript: false
-#kramdown:
-#  math_engine: mathjax
-#  syntax_highlighter: rouge
