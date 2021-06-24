@@ -6,12 +6,11 @@ author:
 date: 09/05/2020
 thumbnail: /assets/image/tumblr_oxm9u5m42k1v4u49oo1_400.gif
 tags: update
-excerpt: Time is no luxury, and this is an excerpt.
+excerpt: "Time is no luxury. My fiddling with the frontend of things has not
+  been fruition. Despite self-acclaiming as a blogger, I've barely made enough
+  for a month; then as a sci-fi writer, the genre I've known but fell pale in
+  comparison to my peer. "
 ---
-Time is no luxury. 
-
-My fiddling with the frontend of things has not been fruition. Despite self-acclaiming as a blogger, I've barely made enough for a month; then as a sci-fi writer, the genre I've known but fell pale in comparison to my peer. 
-
 I don't write much, for the moment keys are typed I'll forever be failing at my words, so much so that deep in my cranium there's a "cerebral cavity", literal or not. Reading is one thing - the one activity taken for granted, with me jotting down any possible collocations or word combinations, but becoming effluent is another. My every aspect lacks practice, for the only spare time boils down to infinite scrolling and compulsion loops, redundancies that have plagued my unbecoming childhood and to this day. Nighttime is preferable as the mere thought of opening an app triggers every exhaustion, anxiety, and worst of all, guilt.
 
 Essentially, the initially registered concept of a major is a pure one - so that I could write more. What followed a year later was the last straw, as it transpired how there have been who are just as devoted as I were, except that unlike me they'd never left the race for, say, a certain contest. Incidentally, this accounts for my lack of update on the #PROJECT-WATER. The foundation is great, and the on-paper girders and structures for worldbuilding stand there - yet only right beside the piling stacks of work and compulsive delays. Those who know me well enough could see how this spells trouble: I'm volatile at work and demands. If it's unfinished, it never will. The old drafts for my first story fell prey to this malpractice, among others.
