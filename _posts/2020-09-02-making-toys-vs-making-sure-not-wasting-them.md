@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Making toys VS making sure not wasting them
+title: Making toys, and making sure not wasting them.
 author:
   - Kinten
 date: 09/05/2020
