@@ -1,0 +1,25 @@
+.content-image {
+    position:relative;
+    display:inline;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+    top: 0.5em;
+    border-radius: 5px;
+  }
+ 
+  .left {
+   float:left;
+   margin-right:1em;
+  }
+  .middle {
+    float:none;
+    margin-left:auto;
+    margin-right:auto;
+  }
+ 
+  .right {
+    float:right;
+    margin-left:1em;
+  }
+ 
