@@ -192,9 +192,9 @@ CMS.registerEditorComponent({
         };
     },
     toBlock: function(obj) {
-        return `<link rel="stylesheet" href="/assets/css/image-inline.css"> {% include image-inline.html type="${obj.type} width="${obj.width}" src="${obj.src}" alt="${obj.alt}" %}`;
+        return `{% include image-inline.html type="${obj.type}" width="${obj.width}" src="${obj.src}" alt="${obj.alt}" %}`;
     },
     toPreview: function(obj) {
-        return `<link rel="stylesheet" href="/assets/css/image-inline.css"> {% include image-inline.html type="${obj.type} width="${obj.width}" src="${obj.src}" alt="${obj.alt}`;
+        return `<link rel="stylesheet" href="/assets/css/image-inline.css"> <img  class="${obj.type}" style="width:${obj.width}%;" src="${obj.src}" alt="${obj.alt}">`;
     },
 });
