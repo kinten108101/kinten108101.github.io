@@ -4,7 +4,7 @@ title: Making toys VS making sure not wasting them
 author:
   - Kinten
 date: 09/05/2020
-thumbnail: /_site/image/ddassa.jpg
+thumbnail: /assets/image/tumblr_oxm9u5m42k1v4u49oo1_400.gif
 tags: update
 excerpt: Time is no luxury, and this is an excerpt.
 ---
@@ -18,9 +18,7 @@ Essentially, the initially registered concept of a major is a pure one - so that
 
 Yet, there's more. The original 925weblog was great, but it lacked customization. In fact, no one besides amateur shopkeepers should bother fiddling with it. Wordpress.org makes itself the obvious upgrade in every possible way, yet the setup proves costly, and further is the existential dread of using its user-made static site generators, all of which bugged only on my machine. So I opted for Jekyll, and ever since a day hadn't gone by without me slowly chopping off somebody else's template, transforming toys of my own desire and by that, splashing out on my rare breaks. 
 
-Generally speaking, I've yet to find a definite answer to a more efficient approach(es) than the likes of "do it when you feel it" which constitutes the bulk of my spare time. As a great cost, hardly could I finish one single task satisfactorily, particularly #PROJECT-WATER. 
-
-![](/_site/image/picskakosvki.png "8.4 is in the making")
+Generally speaking, I've yet to find a definite answer to a more efficient approach(es) than the likes of "do it when you feel it" which constitutes the bulk of my spare time. As a great cost, hardly could I finish one single task satisfactorily, particularly #PROJECT-WATER (a novel series I've been haboring). 
 
 I could disclose no more, but the story has developed immensely over the last few months primarily in unwritten concepts. Trouble is, despite my nocturnal life as a night owl, the wee hours leave me fatigued after a *hard* day's work, so there's no energy left to jot ideas down anyway. That is not to say I can't progress, but at this snail's pace it would take years to realize my intended vision, to that I dearly dread. I wish for a pill of sleeplessness, for extending each episode does more harm than good. Yet, my flying ambitions grow larger every passing day. 
 
@@ -33,5 +31,3 @@ Since this summer some of my skills have improved immensely, yet I am somewhat d
 At the outset of my journey, I've set my vision, while postulating that the chosen major however different should ultimately help. Years later and it has become an unnecessary burden by virtue of my own ignorance, not that I've performed poorly, but no longer do I have that push forward every morning since what laid behind that equivocal push has remained shrouded in mystery, on purpose, until one day when I fall and must confront the truth. With the summer coming to an end, there're no true answers but wrong ones to my existential inquiries. Or I could put it off and take drugs until the time machine is invented. For now, I'll do what Reggie would, "if it's not fun, why bother?"
 
 I wish I could have and will be able to accomplish more. This is not limited to #PROJECT-WATER only, but all my projects as a whole. Whatever comes next must not be toys only for sinecures. Flashy toys must benefit.
-
-<iframe src="https://drive.google.com/file/d/1ql7nZh6PiCshQR3San6L6IsOtWwfB8zC/preview" width="640" height="480"></iframe>
