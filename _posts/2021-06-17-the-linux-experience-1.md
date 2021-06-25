@@ -45,7 +45,7 @@ QT4, GTK, Electron, ... are *widget toolkits*, frameworks that enable GUI develo
 
 OpenGL is a programming language for low-level 3d rendering. In reality it could aid 2d rendering as well by providing GPU acceleration for rendering-intensive tasks like anti-aliases (correct me if I am wrong). Plus, some frameworks include GL-based libraries, middle-men that handle the integration of both parties. GLFW and Clutter are such likes.
 
-(I've fiddled with QT4 in the past, not directly, however, but during my time learning ML when I had to MacGyver an annotation program with OpenCV which was equipped with QT4. Indeed it was so seamlessly integrated with another library that I did not realize it until I had to google the problems when the topical QT4 issues were the first to hit. Compare this to Windows API, which was such a rigid and wordy language for making GUIs that I have never had the gut to touch it again.)
+*I've fiddled with QT4 in the past, not directly, however, but during my time learning ML when I had to MacGyver an annotation program with OpenCV which was equipped with QT4. Indeed it was so seamlessly integrated with another library that I did not realize it until I had to google the problems when the topical QT4 issues were the first to hit. Compare this to Windows API, which was such a rigid and wordy language for making GUIs that I have never had the gut to touch it again.*
 
 Before I dropped off, there I came across an article, which I've already seen, reminding people that exporting the above variable works (as in setting the system env, so far as I see it, though it's called export for unapparent reasons; I tried 'set' but nothing happened). That's been how I live by.
 
@@ -61,6 +61,6 @@ Long story short (particularly read from [here](https://lewtds.github.io/2014/07
 
 {% include image-inline.html type="left" width="50" src="/assets/image/gotiengviet3.gif" alt="Typing with fcitx-unikey." %} The method above was backspacing, where character changes are purposefully shown where the inputs are. `fcitx-unikey` uses pre-editing. A small box will pop up showing my input (converted to Vietnamese), and that conversion will not be officially keyed in until I've finished the word. It has probably been like that for other languages in East Asia, such as in the neighboring China, Korea and Japan (I can confirm this with the mobile Japanese keyboards). 
 
-For me, a long-time Unikey follower, it is my first time, but at least a step to the right direction. In retrospect, I have rarely described myself as a staunch. In the past, I've abandoned Unikey for the default Windows 10 input method anyway. This should be no big deal.
+For me, a long-time Unikey follower, it is my first time, but at least a step to the right direction. In retrospect, I have rarely described myself as a staunch. In the past, I've abandoned Unikey for the default Windows 10 input method anyway. This should be no big deal, and I am glad to reach a conclusion of some sort, even at 3:00 AM.
 
 End of part 1.
