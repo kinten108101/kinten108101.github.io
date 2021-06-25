@@ -61,6 +61,6 @@ Long story short (particularly read from [here](https://lewtds.github.io/2014/07
 
 {% include image-inline.html type="left" width="50" src="/assets/image/gotiengviet3.gif" alt="Typing with fcitx-unikey." %} The method above was *backspacing*, where character changes are purposefully shown where the inputs are. `fcitx-unikey` uses *pre-editing*. A small box will pop up showing my input (converted to Vietnamese), and that conversion will not be officially keyed in until I've finished the word. It has probably been like that for other languages in East Asia, such as in the neighboring China, Korea, and Japan (I can confirm this with the mobile Japanese keyboards). 
 
-As a long-time Unikey follower, this is my version of Deku arriving at the UA, and hopefully a step in the right direction. In retrospect, I have rarely described myself as a staunch. In the past, I've abandoned Unikey for the default Windows 10 input method anyway. This should be no big deal, and I am glad to reach a conclusion of some sort, even at 3:00 AM.
+As a long-time Unikey follower, this is my version of Deku arriving at the UA, or Steve Rogers running off to Times Square, and hopefully a step in the right direction. In retrospect, I have rarely described myself as a staunch. In the past, I've abandoned Unikey for the default Windows 10 input method anyway. This should be no big deal, and I am glad to reach a conclusion of some sort, even at 3:00 AM.
 
 End of part 1.
