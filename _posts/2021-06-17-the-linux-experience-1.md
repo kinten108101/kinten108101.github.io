@@ -44,7 +44,7 @@ Specifically, I heard that apps downloaded from, or handled by, snap are experie
 
 Again, I could be wrong, because my understanding of *platforms* is loosely based, so I'll read up later. Still, that is to give you a sense of what I'm under. 
 
-Paying attention to the im-config message, I noticed that there is a list of compatible libraries, or plugins (whatever refer to Qt4 as). QTK is only one among a list of such likes, like QT4, QT, QT Clutter, QT El. I, however, failed to install them, doing which brought in nothing but errors due to the lack of dependencies that also cannot be installed. In all honesty, if they were of any importance then their installation should be the default. 
+Paying attention to the im-config message, I noticed that there is a list of compatible libraries, or plugins (whatever refer to Qt4 as). QTK is only one among a list of such likes, like QT4, QT, QT Clutter, QLFW. I, however, failed to install them, doing which brought in nothing but errors due to the lack of dependencies that also cannot be installed. In all honesty, if they were of any importance then their installation should be the default. 
 
 Before I dropped off, there I came across an article, which I've already seen, reminding people that exporting the above variable works (as in setting the system env, so far as I see it, though it's called export for unapparent reasons; I tried 'set' but nothing happened). That's been how I live by.
 
