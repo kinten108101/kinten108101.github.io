@@ -6,15 +6,14 @@ author:
 date: 18/06/2021
 thumbnail: /assets/image/thriftyfoolishindianrhinoceros-size_restricted.gif
 tags: Log Linux Ubuntu typing
-excerpt: "During my time developing the EBC prototype, I came to the conclusion
-  that Linux should become my next operating system. While few could deny the
-  hardship that this will imply, given the OS's reputation derived much from its
-  incompatibility, eventually I set my mind on greenlighting the idea anyway for
-  one and one sole reason only: change."
+excerpt: "During my time developing a Unity prototype, I concluded that Linux
+  should be my next operating system. While few could deny the hardship and
+  countless hours on Stack Overflow that entail, eventually I settled on the
+  idea, for one and one sole reason only: change."
 ---
-Windows 10 has always been there for me for over 5 years and there is no way a sound justification or objective reason behind abandoning it. Where logic fails, my heart tells that sooner or later the switch will happen, so there would be no point in delaying it anyway, not to mention the crazy time that is summer is coming to its climactic point (usually it is the time when I do my hobbies). 
+Windows 10 has been here to stay for over 5 years, and under no circumstances can me abandoning it be satisfactorily justifiable. Where logic fails, my heart tells me that sooner or later the switch will happen, so there would be no point in delaying it anyway. Also, it is now summer. Even taking into account the pandemic rampaging in my area, and both my prepping and scholarship-hunting process (that is going nowhere), I remain confident that this will be a fantastic time when school is no issue. 
 
-It is definite that the loss of conveniences brought to me by Microsoft will be felt, and that procrastination from perusing the novel system is inevitable and will be rampant, putting more strain onto an already tight prepping schedule; yet, even after that one time canceling the installation at the last moment, the following day my instinct took hold of me, and along the ride, I came. 
+The loss is to be felt, and procrastination stemming from perusing this novel system is inevitable and will be full-blown, putting more strain onto an already tight prepping schedule. Yet, even after that one time canceling the installation at the last moment, the following day my instinct took hold of me, and along the ride, I came. 
 
 Of course, not everything about Linux, or in this case its distro Ubuntu (just because), is doubtful. Its fair share of benefits is quite worth the recognition. One time I opened up System Monitor (the Ubuntu equivalent of Task Manager) to realize that my RAM usage was 26%! Somewhere between that, and it was when I closed all windows. In comparison, the lowest I could obtain on Windows was 31%, accounting for the decimals. I may be wrong here (which means that more research must be put into it) but it might go to show just how much more optimized and decluttered Linux systems are. 
 
