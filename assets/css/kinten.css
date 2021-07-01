@@ -73,6 +73,7 @@
       opacity: 1;
     }
   }
+  /*
   ::selection {
     color: black;
     
@@ -93,6 +94,7 @@
       background-color: gray;
       border-radius: 5px;
     }
+  */
   
   /* 
   *     Texts
@@ -162,7 +164,7 @@
   .post-date {
     display: block;
     margin-top: 0.2rem;
-    margin-bottom: 0rem;
+    margin-bottom: 0.2em;
     font-weight: 700;
     color: #9a9a9a;
     text-transform: uppercase;
