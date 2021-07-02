@@ -81,7 +81,7 @@ defaults: # 将所有配置选项使用<https://jekyllrb.com/docs/configuration/
               ></script>
             - | # fancybox, a jQuery library that adds image zoom.
               <!-- Add jQuery library -->
-              <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+              <script type="text/javascript" src="https://code.jquery.com/jquery-latest.min.js"></script>
 
               <!-- Add mousewheel plugin (this is optional) -->
               <script type="text/javascript" src="/fancybox/lib/jquery.mousewheel-3.0.6.pack.js"></script>
