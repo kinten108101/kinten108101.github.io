@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Enemies to Humanity, part 1.
+title: In Critique of Humanity, tập 1.
 author:
   - Kinten
 date: 28/02/2021
 thumbnail: /assets/image/maxresdefault.jpg
-tags: review spoiler
+tags: essay film
 excerpt: 'During the second short-lived homeschooling period that hit Vietnam in
   Spring 2021, I got the privilege to work on a "short to moderate", 350-word
   film review, for whose topic I chose "Se7en", a 1995 modern classic featuring
