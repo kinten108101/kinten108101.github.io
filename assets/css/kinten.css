@@ -5,10 +5,6 @@
  */
 
  /**/
- @font-face {
-  font-family: 'Banjin';
-  src: url("/assets/font/BanjinCondensed-rggG8.ttf");
-}
 
  
 
@@ -24,12 +20,9 @@
 }
 .home-logo {
  position:relative;
- 
  width: 13em;
- 
- display: inline-block;
- float:left;
-
+ display: block;
+ margin-top: 2em;
 }
 .home-title {
   font-family:'Banjin',monospace;
@@ -52,7 +45,8 @@
     margin-left:2em;
  }
  .home-logo {
-   margin-left:28%;
+   margin-left: auto;
+   margin-right: auto;
  }
 }
 @media screen and (max-width:38em){
@@ -61,7 +55,8 @@
     margin-left:0em;
  }
  .home-logo{
-  margin-left:20%;
+  margin-left: auto;
+  margin-right: auto;
  }
 }
 
