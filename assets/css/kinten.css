@@ -412,7 +412,7 @@
                       line-height: 1.42857143;
                       font-weight: 400;
                       font-size: 16px;
-                      animation: slideUp 1s ease-in-out;
+                      /*animation: slideUp 1s ease-in-out;*/
   
                       max-width: 100%;
                       margin-top: 10rem;
