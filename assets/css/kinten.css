@@ -8,7 +8,7 @@
 
 
 
-:root1 {
+:root {
 
   --color-0:white;
   --color-1: #9a9a9a;
@@ -21,7 +21,7 @@
 
 }
 
-:root {
+:root1 {
   
   --color-3: #9a9a9a;
   --color-2: #505050;
