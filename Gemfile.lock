@@ -4,7 +4,7 @@ GEM
     activesupport (3.2.22.5)
       i18n (~> 0.6, >= 0.6.4)
       multi_json (~> 1.0)
-    addressable (2.7.0)
+    addressable (2.8.0)
       public_suffix (>= 2.0.2, < 5.0)
     coffee-script (2.4.1)
       coffee-script-source
@@ -30,7 +30,6 @@ GEM
     gemoji (3.0.1)
     github-pages (204)
       github-pages-health-check (= 1.16.1)
-	  jemoji
       jekyll (= 3.8.5)
       jekyll-avatar (= 0.7.0)
       jekyll-coffeescript (= 1.1.1)
@@ -43,7 +42,6 @@ GEM
       jekyll-optional-front-matter (= 0.3.2)
       jekyll-paginate (= 1.1.0)
       jekyll-readme-index (= 0.3.0)
-	  jekyll-index-pages (=0.7.1)
       jekyll-redirect-from (= 0.15.0)
       jekyll-relative-links (= 0.6.1)
       jekyll-remote-theme (= 0.4.1)
